@@ -4510,7 +4510,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_QrMrk5tjEe6Qx6HIj8CbaA" type="InPartitions"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_QrMrlJtjEe6Qx6HIj8CbaA" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_QrNSoJtjEe6Qx6HIj8CbaA" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QrLdcZtjEe6Qx6HIj8CbaA" x="8714" y="16410"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QrLdcZtjEe6Qx6HIj8CbaA" x="8345" y="16410"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_UZBoMJtjEe6Qx6HIj8CbaA" element="_UZAaEJtjEe6Qx6HIj8CbaA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <children xmi:type="notation:DecorationNode" xmi:id="_UZCPQJtjEe6Qx6HIj8CbaA" type="ImageCompartment">
@@ -4759,7 +4759,7 @@
                 <children xmi:type="notation:DecorationNode" xmi:id="_S6cp8MqNEe6kP57mcHos9w" type="ActivityEdgeLabelCompartment">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_S6cp8sqNEe6kP57mcHos9w" type="Stereotype"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_S6cp88qNEe6kP57mcHos9w" type="ActivityEdgeLabel"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6cp8cqNEe6kP57mcHos9w" x="1852" y="68"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6cp8cqNEe6kP57mcHos9w" x="1363" y="68"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6cC4cqNEe6kP57mcHos9w" points="[-25, 0, -31, -83]$[5, 52, -1, -31]"/>
                 <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6g7YMqNEe6kP57mcHos9w" id="left"/>
@@ -4797,7 +4797,7 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_luacIJtiEe6Qx6HIj8CbaA" name="Informar Aerolínea no encontrada" outgoing="_dm00gJtjEe6Qx6HIj8CbaA" incoming="_n0ohwJtiEe6Qx6HIj8CbaA"/>
           <node xmi:type="uml:DecisionNode" xmi:id="_vChEwJtiEe6Qx6HIj8CbaA" outgoing="_3uFGsJtiEe6Qx6HIj8CbaA _KPCZAMqNEe6kP57mcHos9w" incoming="_wG7vIJtiEe6Qx6HIj8CbaA"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_17ThgJtiEe6Qx6HIj8CbaA" name="Informar Hangar no encontrado" outgoing="_aRyLUJtjEe6Qx6HIj8CbaA" incoming="_3uFGsJtiEe6Qx6HIj8CbaA"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_QrKPUJtjEe6Qx6HIj8CbaA" name="Dar de alta Avión&#xD;&#xA;en la Base de Datos" outgoing="_WOAz4JtjEe6Qx6HIj8CbaA" incoming="_S6XxcMqNEe6kP57mcHos9w"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_QrKPUJtjEe6Qx6HIj8CbaA" name="Dar de alta Avión&#xD;&#xA;en la Base de Datos y&#xD;&#xA;modificar stock del Hangar" outgoing="_WOAz4JtjEe6Qx6HIj8CbaA" incoming="_S6XxcMqNEe6kP57mcHos9w"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_UZAaEJtjEe6Qx6HIj8CbaA" name="Informar ID único de Avión" outgoing="_ZMn6EJtjEe6Qx6HIj8CbaA" incoming="_WOAz4JtjEe6Qx6HIj8CbaA"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_Yssc0JtjEe6Qx6HIj8CbaA" incoming="_ZMn6EJtjEe6Qx6HIj8CbaA _aRyLUJtjEe6Qx6HIj8CbaA _dm00gJtjEe6Qx6HIj8CbaA _gHv5IJtjEe6Qx6HIj8CbaA _jvdmsJtjEe6Qx6HIj8CbaA _hozUwMqNEe6kP57mcHos9w"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_IcEmkMqNEe6kP57mcHos9w" name="Comprobar stock Hangar" outgoing="_RCj7QMqNEe6kP57mcHos9w" incoming="_KPCZAMqNEe6kP57mcHos9w"/>
@@ -5048,7 +5048,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_lcrXQJszEe64EY5ztwqXcg" type="InPartitions"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_lcrXQZszEe64EY5ztwqXcg" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_lcrXQpszEe64EY5ztwqXcg" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcpiEZszEe64EY5ztwqXcg" x="7607" y="8907"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcpiEZszEe64EY5ztwqXcg" x="7361" y="8907"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_rhkR4JszEe64EY5ztwqXcg" element="_rhh1oJszEe64EY5ztwqXcg" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <children xmi:type="notation:DecorationNode" xmi:id="_rhk48JszEe64EY5ztwqXcg" type="ImageCompartment">
@@ -5209,7 +5209,7 @@
           <node xmi:type="uml:DecisionNode" xmi:id="_YzLgIJszEe64EY5ztwqXcg" outgoing="_c65jcJszEe64EY5ztwqXcg _42iu8JszEe64EY5ztwqXcg" incoming="_Zqx2gJszEe64EY5ztwqXcg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_bc24IJszEe64EY5ztwqXcg" name="Buscar Avión por ID" outgoing="_i7t4GpszEe64EY5ztwqXcg" incoming="_c65jcJszEe64EY5ztwqXcg"/>
           <node xmi:type="uml:DecisionNode" xmi:id="_h9J8YJszEe64EY5ztwqXcg" outgoing="_oqv1wJszEe64EY5ztwqXcg _teKhcJszEe64EY5ztwqXcg" incoming="_i7t4GpszEe64EY5ztwqXcg"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_lcnF0JszEe64EY5ztwqXcg" name="Borrado lógico del Avión&#xD;&#xA;en la base de datos" outgoing="_0eyrkJszEe64EY5ztwqXcg" incoming="_oqv1wJszEe64EY5ztwqXcg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_lcnF0JszEe64EY5ztwqXcg" name="Borrado lógico del Avión&#xD;&#xA;en la base de datos y modificar&#xD;&#xA;stock de su Hangar" outgoing="_0eyrkJszEe64EY5ztwqXcg" incoming="_oqv1wJszEe64EY5ztwqXcg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_rhh1oJszEe64EY5ztwqXcg" name="Informar Avión no encontrado&#xD;&#xA;o no activo" outgoing="_9D4SEJszEe64EY5ztwqXcg" incoming="_teKhcJszEe64EY5ztwqXcg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_xQkcEJszEe64EY5ztwqXcg" name="Informar eliminación del Avión" outgoing="_1-u0UJszEe64EY5ztwqXcg" incoming="_0eyrkJszEe64EY5ztwqXcg"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_1JaV4JszEe64EY5ztwqXcg" incoming="_1-u0UJszEe64EY5ztwqXcg _752H4JszEe64EY5ztwqXcg _9D4SEJszEe64EY5ztwqXcg"/>
@@ -5816,7 +5816,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_pcNuO5tjEe6Qx6HIj8CbaA" type="InPartitions"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_pcNuPJtjEe6Qx6HIj8CbaA" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_pcNuPZtjEe6Qx6HIj8CbaA" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pcNuPptjEe6Qx6HIj8CbaA" x="8837" y="23421"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pcNuPptjEe6Qx6HIj8CbaA" x="8714" y="22806"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_pcNuP5tjEe6Qx6HIj8CbaA" element="_pcQKYptjEe6Qx6HIj8CbaA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <children xmi:type="notation:DecorationNode" xmi:id="_pcNuQJtjEe6Qx6HIj8CbaA" type="ImageCompartment">
@@ -5826,7 +5826,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_pcNuQ5tjEe6Qx6HIj8CbaA" type="InPartitions"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_pcNuRJtjEe6Qx6HIj8CbaA" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_pcNuRZtjEe6Qx6HIj8CbaA" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pcNuRptjEe6Qx6HIj8CbaA" x="7730" y="24897"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pcNuRptjEe6Qx6HIj8CbaA" x="7976" y="24897"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_pcOVMJtjEe6Qx6HIj8CbaA" element="_pcQKY5tjEe6Qx6HIj8CbaA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
                     <children xmi:type="notation:DecorationNode" xmi:id="_pcOVMZtjEe6Qx6HIj8CbaA" type="ImageCompartment">
@@ -6318,7 +6318,7 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_pcO8RZtjEe6Qx6HIj8CbaA" name="Informar Aerolínea no encontrada&#xD;&#xA;o no activa" outgoing="_pcWRAJtjEe6Qx6HIj8CbaA" incoming="_pcTNt5tjEe6Qx6HIj8CbaA"/>
           <node xmi:type="uml:DecisionNode" xmi:id="_pcPjUJtjEe6Qx6HIj8CbaA" outgoing="_pcT00ZtjEe6Qx6HIj8CbaA _GAaxkMqPEe6kP57mcHos9w" incoming="_pcTNwZtjEe6Qx6HIj8CbaA"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_pcPjUptjEe6Qx6HIj8CbaA" name="Informar Hangar no encontrado&#xD;&#xA;o no activo" outgoing="_pcVp-ZtjEe6Qx6HIj8CbaA" incoming="_pcT00ZtjEe6Qx6HIj8CbaA"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_pcQKYZtjEe6Qx6HIj8CbaA" name="Modificar Avión en&#xD;&#xA;la Base de Datos" outgoing="_pcUb75tjEe6Qx6HIj8CbaA" incoming="_O7cy4MqPEe6kP57mcHos9w"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_pcQKYZtjEe6Qx6HIj8CbaA" name="Modificar Avión en&#xD;&#xA;la Base de Datos y&#xD;&#xA;stock del/de los hangar/s" outgoing="_pcUb75tjEe6Qx6HIj8CbaA" incoming="_O7cy4MqPEe6kP57mcHos9w"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_pcQKYptjEe6Qx6HIj8CbaA" name="Informar Modificación de Avión" outgoing="_pcVp8JtjEe6Qx6HIj8CbaA" incoming="_pcUb75tjEe6Qx6HIj8CbaA"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_pcQKY5tjEe6Qx6HIj8CbaA" incoming="_pcVp8JtjEe6Qx6HIj8CbaA _pcVp-ZtjEe6Qx6HIj8CbaA _pcWRAJtjEe6Qx6HIj8CbaA _pcW4F5tjEe6Qx6HIj8CbaA _NVpPkJtkEe6Qx6HIj8CbaA _eQSy0JtkEe6Qx6HIj8CbaA _Xeej4MqPEe6kP57mcHos9w _DmukEMqUEe6kP57mcHos9w"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_51ebkJtjEe6Qx6HIj8CbaA" name="Buscar Avión por ID" outgoing="_CZUE4JtkEe6Qx6HIj8CbaA" incoming="_7qNvoJtjEe6Qx6HIj8CbaA"/>
