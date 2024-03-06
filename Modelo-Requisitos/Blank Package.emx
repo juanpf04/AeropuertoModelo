@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_uqQootuTEe671onPXtu2fA" name="Modelo de diseño">
+  <eAnnotations xmi:id="_uqQoo9uTEe671onPXtu2fA" source="uml2.diagrams"/>
+  <packageImport xmi:id="_uqQopduTEe671onPXtu2fA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GIYf8NuUEe671onPXtu2fA" name="presentacion">
+    <eAnnotations xmi:id="_GIiQ8NuUEe671onPXtu2fA" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VfcwkNuUEe671onPXtu2fA" name="Modelo">
+      <eAnnotations xmi:id="_VfcwkduUEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fNp7QNuUEe671onPXtu2fA" name="Hangar">
+      <eAnnotations xmi:id="_fNwB4NuUEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0XW44NuUEe671onPXtu2fA" name="Contrato">
+      <eAnnotations xmi:id="_0XW44duUEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9Pv14NuUEe671onPXtu2fA" name="Avión">
+      <eAnnotations xmi:id="_9P18gNuUEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_B5XFUNuVEe671onPXtu2fA" name="Aerolínea">
+      <eAnnotations xmi:id="_B5XFUduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GQ3RENuVEe671onPXtu2fA" name="Personal">
+      <eAnnotations xmi:id="_GQ9XsNuVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_HmdAcNuUEe671onPXtu2fA" name="negocio">
+    <eAnnotations xmi:id="_HmdAcduUEe671onPXtu2fA" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIsNuVEe671onPXtu2fA" name="Modelo">
+      <eAnnotations xmi:id="_aaLIsduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIstuVEe671onPXtu2fA" name="Hangar">
+      <eAnnotations xmi:id="_aaLIs9uVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLItNuVEe671onPXtu2fA" name="Contrato">
+      <eAnnotations xmi:id="_aaLItduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIttuVEe671onPXtu2fA" name="Avión">
+      <eAnnotations xmi:id="_aaLIt9uVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIuNuVEe671onPXtu2fA" name="Aerolínea">
+      <eAnnotations xmi:id="_aaLIuduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIutuVEe671onPXtu2fA" name="Personal">
+      <eAnnotations xmi:id="_aaLIu9uVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_JHqUgNuUEe671onPXtu2fA" name="integracion">
+    <eAnnotations xmi:id="_JHqUgduUEe671onPXtu2fA" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFMNuVEe671onPXtu2fA" name="Modelo">
+      <eAnnotations xmi:id="_bLsFMduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFMtuVEe671onPXtu2fA" name="Hangar">
+      <eAnnotations xmi:id="_bLsFM9uVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNNuVEe671onPXtu2fA" name="Contrato">
+      <eAnnotations xmi:id="_bLsFNduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNtuVEe671onPXtu2fA" name="Avión">
+      <eAnnotations xmi:id="_bLsFN9uVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFONuVEe671onPXtu2fA" name="Aerolínea">
+      <eAnnotations xmi:id="_bLsFOduVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFOtuVEe671onPXtu2fA" name="Personal">
+      <eAnnotations xmi:id="_bLsFO9uVEe671onPXtu2fA" source="uml2.diagrams"/>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="_uqQoptuTEe671onPXtu2fA">
+    <eAnnotations xmi:id="_uqQop9uTEe671onPXtu2fA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_uqQoqNuTEe671onPXtu2fA">
+    <eAnnotations xmi:id="_uqQoqduTEe671onPXtu2fA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_uqQoqtuTEe671onPXtu2fA">
+    <eAnnotations xmi:id="_uqQoq9uTEe671onPXtu2fA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>
