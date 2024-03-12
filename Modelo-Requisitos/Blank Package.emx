@@ -1386,17 +1386,11 @@
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_cnTGsN76Ee6StrUwLZwVQQ" name="SAModeloImp" clientDependency="_gQTNsN76Ee6StrUwLZwVQQ _qm6mwN77Ee6StrUwLZwVQQ _sSNq8N77Ee6StrUwLZwVQQ _yfE10N77Ee6StrUwLZwVQQ _uuBJkN78Ee6StrUwLZwVQQ">
-        <ownedAttribute xmi:id="_xA4ZgN77Ee6StrUwLZwVQQ" name="factoriaIntegracion" visibility="private" type="_mLjEIN76Ee6StrUwLZwVQQ" association="_xA3LYN77Ee6StrUwLZwVQQ">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xA5noN77Ee6StrUwLZwVQQ" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xA5AkN77Ee6StrUwLZwVQQ" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cnTGsN76Ee6StrUwLZwVQQ" name="SAModeloImp" clientDependency="_gQTNsN76Ee6StrUwLZwVQQ _qm6mwN77Ee6StrUwLZwVQQ _sSNq8N77Ee6StrUwLZwVQQ _yfE10N77Ee6StrUwLZwVQQ _uuBJkN78Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Realization" xmi:id="_gQTNsN76Ee6StrUwLZwVQQ" supplier="_Hk6EINubEe671onPXtu2fA" client="_cnTGsN76Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Tj7MQN77Ee6StrUwLZwVQQ" supplier="_Hk6EINubEe671onPXtu2fA" client="_v8s8gN73Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_qm6mwN77Ee6StrUwLZwVQQ" supplier="_tNM7INubEe671onPXtu2fA" client="_cnTGsN76Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_sSNq8N77Ee6StrUwLZwVQQ" supplier="_v8s8gN73Ee6StrUwLZwVQQ" client="_cnTGsN76Ee6StrUwLZwVQQ"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_xA3LYN77Ee6StrUwLZwVQQ" memberEnd="_xA4ZgN77Ee6StrUwLZwVQQ _xA6OsN77Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_yfE10N77Ee6StrUwLZwVQQ" supplier="_mLjEIN76Ee6StrUwLZwVQQ" client="_cnTGsN76Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_uuBJkN78Ee6StrUwLZwVQQ" supplier="_tGGJgN78Ee6StrUwLZwVQQ" client="_cnTGsN76Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_UO2YkN77Ee6StrUwLZwVQQ" supplier="_Hk6EINubEe671onPXtu2fA" client="_tNM7INubEe671onPXtu2fA"/>
@@ -1963,10 +1957,6 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_mLjEIN76Ee6StrUwLZwVQQ" name="FactoriaIntegracion" isAbstract="true">
-        <ownedAttribute xmi:id="_xA6OsN77Ee6StrUwLZwVQQ" name="sAModeloImp" visibility="private" type="_cnTGsN76Ee6StrUwLZwVQQ" association="_xA3LYN77Ee6StrUwLZwVQQ">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xA61wd77Ee6StrUwLZwVQQ" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xA61wN77Ee6StrUwLZwVQQ" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:id="_iR05MN79Ee6StrUwLZwVQQ" name="instancia" visibility="private" type="_mLjEIN76Ee6StrUwLZwVQQ"/>
         <ownedOperation xmi:id="_sS6joN79Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_t_5C0N79Ee6StrUwLZwVQQ" name="Parameter1" type="_mLjEIN76Ee6StrUwLZwVQQ" direction="return"/>
