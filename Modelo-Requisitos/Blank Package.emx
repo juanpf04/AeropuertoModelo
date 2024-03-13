@@ -434,8 +434,12 @@
           <ownedParameter xmi:id="_PstHQN70Ee6StrUwLZwVQQ" name="Parameter1" type="_8rd8wNuXEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_XYPFAN7zEe6StrUwLZwVQQ" name="accion" isAbstract="true">
-          <ownedParameter xmi:id="_afvogN7zEe6StrUwLZwVQQ" name="evento" type="_eu6-sN7zEe6StrUwLZwVQQ"/>
-          <ownedParameter xmi:id="_eu6-sd7zEe6StrUwLZwVQQ" name="datos" type="_fFHRIN7zEe6StrUwLZwVQQ"/>
+          <ownedParameter xmi:id="_afvogN7zEe6StrUwLZwVQQ" name="evento">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_eu6-sd7zEe6StrUwLZwVQQ" name="datos">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_HbH9YNuYEe671onPXtu2fA" name="FactoriaPresentacion" clientDependency="_GeXowOBPEe6W7Nb7jNcwPA" isAbstract="true">
@@ -464,7 +468,9 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_gJKvANuZEe671onPXtu2fA" name="ActionListener">
         <ownedOperation xmi:id="_lEK0EN70Ee6StrUwLZwVQQ" name="actionPerformed">
-          <ownedParameter xmi:id="_rIxa0N70Ee6StrUwLZwVQQ" name="e" type="_8W1CQN70Ee6StrUwLZwVQQ"/>
+          <ownedParameter xmi:id="_rIxa0N70Ee6StrUwLZwVQQ" name="e">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.awt.event.ActionEvent%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_oCBsMNuaEe671onPXtu2fA" name="ControladorImp" clientDependency="_-XzwgNucEe671onPXtu2fA _-u1wcNucEe671onPXtu2fA __DtNMNucEe671onPXtu2fA">
@@ -1323,10 +1329,10 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_1UgHoN73Ee6StrUwLZwVQQ" name="nombre" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_3AUwQN73Ee6StrUwLZwVQQ" name="motor" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_9luW8N73Ee6StrUwLZwVQQ" name="activo" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
@@ -1339,12 +1345,12 @@
         </ownedOperation>
         <ownedOperation xmi:id="_OJDEoN_PEe62YMrw1elUTw" name="getNombre">
           <ownedParameter xmi:id="_RQZ3IN_PEe62YMrw1elUTw" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_PRWwgN_PEe62YMrw1elUTw" name="getMotor">
           <ownedParameter xmi:id="_UFwToN_PEe62YMrw1elUTw" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_QE9-wN_PEe62YMrw1elUTw" name="getActivo">
