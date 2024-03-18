@@ -1575,6 +1575,9 @@
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__DtNMtucEe671onPXtu2fA" points="[549, 465, -6552, -5535]$[549, 3000, -6552, -3000]$[6784, 3000, -317, -3000]$[6784, 5174, -317, -826]"/>
           </edges>
         </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_IUhy8OVOEe6Zt8-70NGsiQ" type="Class" name="Prueba">
+          <element xsi:nil="true"/>
+        </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_r9nfgOFiEe6ZPYjXtne6Qw" name="Diagramas de secuencia">
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_r9rJ4OFiEe6ZPYjXtne6Qw" name="Controlador">
