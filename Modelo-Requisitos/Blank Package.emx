@@ -5379,61 +5379,61 @@
         <ownedOperation xmi:id="_oFI1QN71Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_qu5s0N71Ee6StrUwLZwVQQ" name="Parameter1" type="_HbH9YNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_FvjPsN72Ee6StrUwLZwVQQ" name="crearVistaAltaModelo">
+        <ownedOperation xmi:id="_FvjPsN72Ee6StrUwLZwVQQ" name="crearVistaAltaModelo" isAbstract="true">
           <ownedParameter xmi:id="_Jf6i8N72Ee6StrUwLZwVQQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_LTHl8N72Ee6StrUwLZwVQQ" name="crearVistaExitoAltaModelo">
+        <ownedOperation xmi:id="_LTHl8N72Ee6StrUwLZwVQQ" name="crearVistaExitoAltaModelo" isAbstract="true">
           <ownedParameter xmi:id="_OnXwMOBPEe6W7Nb7jNcwPA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_RuYZMN72Ee6StrUwLZwVQQ" name="crearVistaFalloAltaModelo">
+        <ownedOperation xmi:id="_RuYZMN72Ee6StrUwLZwVQQ" name="crearVistaFalloAltaModelo" isAbstract="true">
           <ownedParameter xmi:id="_Q10kwOBPEe6W7Nb7jNcwPA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_V_GckOONEe65I9BvgcChUw" name="crearVistaExitoBajaModelo">
+        <ownedOperation xmi:id="_V_GckOONEe65I9BvgcChUw" name="crearVistaExitoBajaModelo" isAbstract="true">
           <ownedParameter xmi:id="_bs5sAOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_doTpoOONEe65I9BvgcChUw" name="crearVistaFalloBajaModelo">
+        <ownedOperation xmi:id="_doTpoOONEe65I9BvgcChUw" name="crearVistaFalloBajaModelo" isAbstract="true">
           <ownedParameter xmi:id="_dKJGEOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_gdpfEOONEe65I9BvgcChUw" name="crearVistaBajaModelo">
+        <ownedOperation xmi:id="_gdpfEOONEe65I9BvgcChUw" name="crearVistaBajaModelo" isAbstract="true">
           <ownedParameter xmi:id="_eeaKUOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_j5hJAOONEe65I9BvgcChUw" name="crearVistaConsultarTodosModelos">
+        <ownedOperation xmi:id="_j5hJAOONEe65I9BvgcChUw" name="crearVistaConsultarTodosModelos" isAbstract="true">
           <ownedParameter xmi:id="_gxQWsOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_mdndcOONEe65I9BvgcChUw" name="crearVistaResultadoConsultarTodosModelos">
+        <ownedOperation xmi:id="_mdndcOONEe65I9BvgcChUw" name="crearVistaResultadoConsultarTodosModelos" isAbstract="true">
           <ownedParameter xmi:id="_iBLtgOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_HrwS4OR2Ee6gfvFSH037LA" name="crearVistaConsultarModeloPorId">
+        <ownedOperation xmi:id="_HrwS4OR2Ee6gfvFSH037LA" name="crearVistaConsultarModeloPorId" isAbstract="true">
           <ownedParameter xmi:id="_nWMDUOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_LfRAwOR2Ee6gfvFSH037LA" name="crearVistaResultadoConsultarModeloPorId">
+        <ownedOperation xmi:id="_LfRAwOR2Ee6gfvFSH037LA" name="crearVistaResultadoConsultarModeloPorId" isAbstract="true">
           <ownedParameter xmi:id="_renRQOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_SAWHIOSBEe6gfvFSH037LA" name="crearVistaDesvincularModelo">
+        <ownedOperation xmi:id="_SAWHIOSBEe6gfvFSH037LA" name="crearVistaDesvincularModelo" isAbstract="true">
           <ownedParameter xmi:id="_uGM-kOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_UXVzsOSBEe6gfvFSH037LA" name="crearVistaExitoDesvincularModelo">
+        <ownedOperation xmi:id="_UXVzsOSBEe6gfvFSH037LA" name="crearVistaExitoDesvincularModelo" isAbstract="true">
           <ownedParameter xmi:id="_vNXa8OSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_WjrIYOSBEe6gfvFSH037LA" name="crearVistaFalloDesvincularModelo">
+        <ownedOperation xmi:id="_WjrIYOSBEe6gfvFSH037LA" name="crearVistaFalloDesvincularModelo" isAbstract="true">
           <ownedParameter xmi:id="_wSsEQOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_cjjkEOYqEe6l94VYgStVdg" name="crearVistaVincularModelo">
+        <ownedOperation xmi:id="_cjjkEOYqEe6l94VYgStVdg" name="crearVistaVincularModelo" isAbstract="true">
           <ownedParameter xmi:id="_ipGmAOYqEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_fGD9EOYqEe6l94VYgStVdg" name="crearVistaExitoVincularModelo">
+        <ownedOperation xmi:id="_fGD9EOYqEe6l94VYgStVdg" name="crearVistaExitoVincularModelo" isAbstract="true">
           <ownedParameter xmi:id="_kILzIOYqEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_gyRnQOYqEe6l94VYgStVdg" name="crearVistaFalloVincularModelo">
+        <ownedOperation xmi:id="_gyRnQOYqEe6l94VYgStVdg" name="crearVistaFalloVincularModelo" isAbstract="true">
           <ownedParameter xmi:id="_llJgYOYqEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_CGNtIOYrEe6l94VYgStVdg" name="crearVistaModificarModelo">
+        <ownedOperation xmi:id="_CGNtIOYrEe6l94VYgStVdg" name="crearVistaModificarModelo" isAbstract="true">
           <ownedParameter xmi:id="_I79c8OYrEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_ET660OYrEe6l94VYgStVdg" name="crearVistaExitoModificarModelo">
+        <ownedOperation xmi:id="_ET660OYrEe6l94VYgStVdg" name="crearVistaExitoModificarModelo" isAbstract="true">
           <ownedParameter xmi:id="_KGD4kOYrEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_GklV4OYrEe6l94VYgStVdg" name="crearVistaFalloModificarModelo">
+        <ownedOperation xmi:id="_GklV4OYrEe6l94VYgStVdg" name="crearVistaFalloModificarModelo" isAbstract="true">
           <ownedParameter xmi:id="_LC2Q8OYrEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
@@ -9061,7 +9061,7 @@
         <ownedOperation xmi:id="_8l2Y4N74Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_-vgNAN74Ee6StrUwLZwVQQ" name="Parameter1" type="_DF47INubEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_Cc9WMN75Ee6StrUwLZwVQQ" name="crearSAModelo">
+        <ownedOperation xmi:id="_Cc9WMN75Ee6StrUwLZwVQQ" name="crearSAModelo" isAbstract="true">
           <ownedParameter xmi:id="_Enmo0N75Ee6StrUwLZwVQQ" name="Parameter1" type="_Hk6EINubEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
@@ -9991,13 +9991,13 @@
         <ownedOperation xmi:id="_sS6joN79Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_t_5C0N79Ee6StrUwLZwVQQ" name="Parameter1" type="_mLjEIN76Ee6StrUwLZwVQQ" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_wyRD0N79Ee6StrUwLZwVQQ" name="crearDAOModelo">
+        <ownedOperation xmi:id="_wyRD0N79Ee6StrUwLZwVQQ" name="crearDAOModelo" isAbstract="true">
           <ownedParameter xmi:id="_yccGoN79Ee6StrUwLZwVQQ" name="Parameter1" type="_tGGJgN78Ee6StrUwLZwVQQ" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_AFd-MOOKEe65I9BvgcChUw" name="crearDAOAvion">
+        <ownedOperation xmi:id="_AFd-MOOKEe65I9BvgcChUw" name="crearDAOAvion" isAbstract="true">
           <ownedParameter xmi:id="_CGey0OR-Ee6gfvFSH037LA" name="Parameter1" type="_owguIOOCEe65I9BvgcChUw" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_6Ry14OR6Ee6gfvFSH037LA" name="crearDAOAeolinea">
+        <ownedOperation xmi:id="_6Ry14OR6Ee6gfvFSH037LA" name="crearDAOAeolinea" isAbstract="true">
           <ownedParameter xmi:id="_DjQS0OR-Ee6gfvFSH037LA" name="Parameter1" type="_yuWdIOR7Ee6gfvFSH037LA" direction="return"/>
         </ownedOperation>
       </packagedElement>
