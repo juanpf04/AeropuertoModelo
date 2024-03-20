@@ -8726,7 +8726,7 @@
                   <guard xmi:id="_dS3T8OaUEe6tipYeRjCOEw">
                     <specification xmi:type="uml:OpaqueExpression" xmi:id="_dS37AOaUEe6tipYeRjCOEw">
                       <language></language>
-                      <body>id != -1</body>
+                      <body>tModelo != null</body>
                     </specification>
                   </guard>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ivmpceaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_AG_CoN_QEe62YMrw1elUTw" message="_ivmpcOaUEe6tipYeRjCOEw"/>
@@ -8762,7 +8762,7 @@
                   <guard xmi:id="_dS4iEeaUEe6tipYeRjCOEw">
                     <specification xmi:type="uml:OpaqueExpression" xmi:id="_dS5JIOaUEe6tipYeRjCOEw">
                       <language></language>
-                      <body>id == -1</body>
+                      <body>tModelo == -1</body>
                     </specification>
                   </guard>
                 </operand>
@@ -8782,7 +8782,7 @@
           <message xmi:id="_Niz74eaUEe6tipYeRjCOEw" name="correcto = comprobarDatosModelo" receiveEvent="_Niz7o-aUEe6tipYeRjCOEw" sendEvent="_Niz7ouaUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz74uaUEe6tipYeRjCOEw" name="modificarModelo" receiveEvent="_Niz7oOaUEe6tipYeRjCOEw" sendEvent="_Niz7n-aUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz75OaUEe6tipYeRjCOEw" name="modificarModelo" messageSort="reply" receiveEvent="_Niz74OaUEe6tipYeRjCOEw" sendEvent="_Niz73-aUEe6tipYeRjCOEw"/>
-          <message xmi:id="_Niz75eaUEe6tipYeRjCOEw" name="id = leerModeloPorId" receiveEvent="_Niz7tuaUEe6tipYeRjCOEw" sendEvent="_Niz7teaUEe6tipYeRjCOEw"/>
+          <message xmi:id="_Niz75eaUEe6tipYeRjCOEw" name="tModelo = leerModeloPorId" receiveEvent="_Niz7tuaUEe6tipYeRjCOEw" sendEvent="_Niz7teaUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz76OaUEe6tipYeRjCOEw" name="getInstance" messageSort="reply" receiveEvent="_Niz7q-aUEe6tipYeRjCOEw" sendEvent="_Niz7quaUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz76eaUEe6tipYeRjCOEw" name="crearDAOModelo" messageSort="reply" receiveEvent="_Niz7tOaUEe6tipYeRjCOEw" sendEvent="_Niz7s-aUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz76-aUEe6tipYeRjCOEw" name="comprobarDatosModelo" messageSort="reply" receiveEvent="_Niz7puaUEe6tipYeRjCOEw" sendEvent="_Niz7peaUEe6tipYeRjCOEw"/>
