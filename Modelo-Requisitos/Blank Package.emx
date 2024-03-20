@@ -5501,7 +5501,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_eYHzd-OBEe65I9BvgcChUw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_eYHzeOOBEe65I9BvgcChUw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_eYHzeeOBEe65I9BvgcChUw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYHzeuOBEe65I9BvgcChUw" x="10262" y="10385"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYHzeuOBEe65I9BvgcChUw" x="9963" y="9348"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_eYHze-OBEe65I9BvgcChUw" element="_cnTGsN76Ee6StrUwLZwVQQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_eYHzfOOBEe65I9BvgcChUw" type="ImageCompartment">
@@ -5867,6 +5867,30 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <ownedParameter xmi:id="_06dPwOYlEe6l94VYgStVdg" name="tModelo" type="_tNM7INubEe671onPXtu2fA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_p2P0AObsEe6tG_GHPIU2iw" name="comprobarId">
+          <ownedParameter xmi:id="_rZw1MObsEe6tG_GHPIU2iw" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_wFyfcObsEe6tG_GHPIU2iw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tOrIYObsEe6tG_GHPIU2iw" name="comprobarNombre">
+          <ownedParameter xmi:id="_zt7DwObsEe6tG_GHPIU2iw" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2ANPcObsEe6tG_GHPIU2iw" name="nombre">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_5PTosObsEe6tG_GHPIU2iw" name="comprobarMotor">
+          <ownedParameter xmi:id="_7AaZ8ObsEe6tG_GHPIU2iw" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9GG7IObsEe6tG_GHPIU2iw" name="motor">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_cnTGsN76Ee6StrUwLZwVQQ" name="SAModeloImp" clientDependency="_gQTNsN76Ee6StrUwLZwVQQ _qm6mwN77Ee6StrUwLZwVQQ _sSNq8N77Ee6StrUwLZwVQQ _yfE10N77Ee6StrUwLZwVQQ _uuBJkN78Ee6StrUwLZwVQQ _uR220OOCEe65I9BvgcChUw __poJAOOEEe65I9BvgcChUw __9qMgOR6Ee6gfvFSH037LA _r1lV8OYlEe6l94VYgStVdg _6dASUOYlEe6l94VYgStVdg _b7bJ4OYmEe6l94VYgStVdg _4KEw8OYmEe6l94VYgStVdg"/>
