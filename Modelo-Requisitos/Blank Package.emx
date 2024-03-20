@@ -5436,15 +5436,6 @@
         <ownedOperation xmi:id="_GklV4OYrEe6l94VYgStVdg" name="crearVistaFalloModificarModelo">
           <ownedParameter xmi:id="_LC2Q8OYrEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_W9vP0OaSEe6tipYeRjCOEw" name="crearVistaModificarModelo">
-          <ownedParameter xmi:id="_cEKXEOaSEe6tipYeRjCOEw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
-        </ownedOperation>
-        <ownedOperation xmi:id="_dXnjAOaSEe6tipYeRjCOEw" name="crearVistaExitoModificarModelo">
-          <ownedParameter xmi:id="_gId6AOaSEe6tipYeRjCOEw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
-        </ownedOperation>
-        <ownedOperation xmi:id="_hlBXkOaSEe6tipYeRjCOEw" name="crearVistaFalloModificarModelo">
-          <ownedParameter xmi:id="_kRhaEOaSEe6tipYeRjCOEw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
-        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_GeXowOBPEe6W7Nb7jNcwPA" supplier="__18fQNuYEe671onPXtu2fA" client="_HbH9YNuYEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_AHAzIOOGEe65I9BvgcChUw" supplier="_Ai_WwOOBEe65I9BvgcChUw" client="_28X2gNuYEe671onPXtu2fA"/>
