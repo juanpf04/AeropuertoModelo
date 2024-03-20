@@ -9038,7 +9038,7 @@
         <generalization xmi:id="_R-ULQN75Ee6StrUwLZwVQQ" general="_DF47INubEe671onPXtu2fA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_DF47INubEe671onPXtu2fA" name="FactoriaNegocio" isAbstract="true">
-        <ownedAttribute xmi:id="_rhm0wN74Ee6StrUwLZwVQQ" name="instancia" visibility="private" type="_DF47INubEe671onPXtu2fA"/>
+        <ownedAttribute xmi:id="_rhm0wN74Ee6StrUwLZwVQQ" name="instancia" visibility="private" isStatic="true" type="_DF47INubEe671onPXtu2fA"/>
         <ownedOperation xmi:id="_8l2Y4N74Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_-vgNAN74Ee6StrUwLZwVQQ" name="Parameter1" type="_DF47INubEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
@@ -9968,7 +9968,7 @@
         <generalization xmi:id="_-xcw8N78Ee6StrUwLZwVQQ" general="_mLjEIN76Ee6StrUwLZwVQQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_mLjEIN76Ee6StrUwLZwVQQ" name="FactoriaIntegracion" isAbstract="true">
-        <ownedAttribute xmi:id="_iR05MN79Ee6StrUwLZwVQQ" name="instancia" visibility="private" type="_mLjEIN76Ee6StrUwLZwVQQ"/>
+        <ownedAttribute xmi:id="_iR05MN79Ee6StrUwLZwVQQ" name="instancia" visibility="private" isStatic="true" type="_mLjEIN76Ee6StrUwLZwVQQ"/>
         <ownedOperation xmi:id="_sS6joN79Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_t_5C0N79Ee6StrUwLZwVQQ" name="Parameter1" type="_mLjEIN76Ee6StrUwLZwVQQ" direction="return"/>
         </ownedOperation>
