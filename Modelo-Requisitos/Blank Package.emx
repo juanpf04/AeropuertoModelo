@@ -5868,7 +5868,7 @@
           </ownedParameter>
           <ownedParameter xmi:id="_06dPwOYlEe6l94VYgStVdg" name="tModelo" type="_tNM7INubEe671onPXtu2fA"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_p2P0AObsEe6tG_GHPIU2iw" name="comprobarId">
+        <ownedOperation xmi:id="_p2P0AObsEe6tG_GHPIU2iw" name="comprobarId" isStatic="true">
           <ownedParameter xmi:id="_rZw1MObsEe6tG_GHPIU2iw" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
@@ -5876,7 +5876,7 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_tOrIYObsEe6tG_GHPIU2iw" name="comprobarNombre">
+        <ownedOperation xmi:id="_tOrIYObsEe6tG_GHPIU2iw" name="comprobarNombre" isStatic="true">
           <ownedParameter xmi:id="_zt7DwObsEe6tG_GHPIU2iw" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
@@ -5884,7 +5884,7 @@
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_5PTosObsEe6tG_GHPIU2iw" name="comprobarMotor">
+        <ownedOperation xmi:id="_5PTosObsEe6tG_GHPIU2iw" name="comprobarMotor" isStatic="true">
           <ownedParameter xmi:id="_7AaZ8ObsEe6tG_GHPIU2iw" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
