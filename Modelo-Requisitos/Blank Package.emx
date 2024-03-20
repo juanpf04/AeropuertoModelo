@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6.1-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_uqQootuTEe671onPXtu2fA" name="Modelo de diseño">
   <eAnnotations xmi:id="_uqQoo9uTEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -10,7 +10,7 @@
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_GIYf8NuUEe671onPXtu2fA" name="presentacion">
     <eAnnotations xmi:id="_GIiQ8NuUEe671onPXtu2fA" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_VfcwkNuUEe671onPXtu2fA" name="Modelo">
+    <packagedElement xmi:type="uml:Package" xmi:id="_VfcwkNuUEe671onPXtu2fA" name="modelo">
       <eAnnotations xmi:id="_VfcwkduUEe671onPXtu2fA" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_PE3LYNuXEe671onPXtu2fA" type="Class" name="DCAltaModeloP">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_s9wtwNuXEe671onPXtu2fA" element="_s9lHkNuXEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -3013,22 +3013,22 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_RcB6wOaSEe6tipYeRjCOEw" supplier="_8rd8wNuXEe671onPXtu2fA" client="_5Sw0sOaREe6tipYeRjCOEw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_SLPxMOaSEe6tipYeRjCOEw" supplier="_8rd8wNuXEe671onPXtu2fA" client="_78-_QOaREe6tipYeRjCOEw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_fNp7QNuUEe671onPXtu2fA" name="Hangar">
+    <packagedElement xmi:type="uml:Package" xmi:id="_fNp7QNuUEe671onPXtu2fA" name="hangar">
       <eAnnotations xmi:id="_fNwB4NuUEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_0XW44NuUEe671onPXtu2fA" name="Contrato">
+    <packagedElement xmi:type="uml:Package" xmi:id="_0XW44NuUEe671onPXtu2fA" name="contrato">
       <eAnnotations xmi:id="_0XW44duUEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_9Pv14NuUEe671onPXtu2fA" name="Avión">
+    <packagedElement xmi:type="uml:Package" xmi:id="_9Pv14NuUEe671onPXtu2fA" name="avion">
       <eAnnotations xmi:id="_9P18gNuUEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_B5XFUNuVEe671onPXtu2fA" name="Aerolínea">
+    <packagedElement xmi:type="uml:Package" xmi:id="_B5XFUNuVEe671onPXtu2fA" name="aerolinea">
       <eAnnotations xmi:id="_B5XFUduVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_GQ3RENuVEe671onPXtu2fA" name="Personal">
+    <packagedElement xmi:type="uml:Package" xmi:id="_GQ3RENuVEe671onPXtu2fA" name="personal">
       <eAnnotations xmi:id="_GQ9XsNuVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_iArKsOFhEe6ZPYjXtne6Qw" name="Controlador">
+    <packagedElement xmi:type="uml:Package" xmi:id="_iArKsOFhEe6ZPYjXtne6Qw" name="controlador">
       <eAnnotations xmi:id="_iAs_4OFhEe6ZPYjXtne6Qw" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_hhPfwNuaEe671onPXtu2fA" type="Class" name="DCControlador">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_j8OUcNuaEe671onPXtu2fA" element="_8rd8wNuXEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -4751,7 +4751,7 @@
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_h3WjgOYrEe6l94VYgStVdg" name="SendOperationEvent21" operation="_BsUyENuZEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_h3XxoOYrEe6l94VYgStVdg" name="ReceiveOperationEvent21" operation="_BsUyENuZEe671onPXtu2fA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_AiFJQOYdEe6l94VYgStVdg" name="Factoria">
+    <packagedElement xmi:type="uml:Package" xmi:id="_AiFJQOYdEe6l94VYgStVdg" name="factoria">
       <eAnnotations xmi:id="_CTA7YOYdEe6l94VYgStVdg" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_YJQ4QN_CEe62YMrw1elUTw" type="Class" name="FactoriaPresentacionModelo">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_bYyIQN_CEe62YMrw1elUTw" element="_HbH9YNuYEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -5461,7 +5461,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_HmdAcNuUEe671onPXtu2fA" name="negocio">
     <eAnnotations xmi:id="_HmdAcduUEe671onPXtu2fA" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIsNuVEe671onPXtu2fA" name="Modelo">
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIsNuVEe671onPXtu2fA" name="modelo">
       <eAnnotations xmi:id="_aaLIsduVEe671onPXtu2fA" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_P8PYsOOBEe65I9BvgcChUw" type="Class" name="DCModeloN">
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_eYHMYOOBEe65I9BvgcChUw" element="_Hk6EINubEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
@@ -8827,13 +8827,13 @@
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_VNP3sOaUEe6tipYeRjCOEw" name="SendOperationEvent25" operation="_wcqGEOK0Ee6_FZpPiExVHg"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_VNP3seaUEe6tipYeRjCOEw" name="ReceiveOperationEvent25" operation="_wcqGEOK0Ee6_FZpPiExVHg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIstuVEe671onPXtu2fA" name="Hangar">
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIstuVEe671onPXtu2fA" name="hangar">
       <eAnnotations xmi:id="_aaLIs9uVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_aaLItNuVEe671onPXtu2fA" name="Contrato">
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLItNuVEe671onPXtu2fA" name="contrato">
       <eAnnotations xmi:id="_aaLItduVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIttuVEe671onPXtu2fA" name="Avión">
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIttuVEe671onPXtu2fA" name="avion">
       <eAnnotations xmi:id="_aaLIt9uVEe671onPXtu2fA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_LeGSEOOEEe65I9BvgcChUw" name="TAvion">
         <ownedAttribute xmi:id="_NO9ywOOEEe65I9BvgcChUw" name="id" visibility="private">
@@ -8938,7 +8938,7 @@
         </ownedOperation>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIuNuVEe671onPXtu2fA" name="Aerolínea">
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIuNuVEe671onPXtu2fA" name="aerolinea">
       <eAnnotations xmi:id="_aaLIuduVEe671onPXtu2fA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_9YBnAOR6Ee6gfvFSH037LA" name="TAerolinea">
         <ownedAttribute xmi:id="_BRADsOR7Ee6gfvFSH037LA" name="id" visibility="private">
@@ -8970,10 +8970,10 @@
         </ownedOperation>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIutuVEe671onPXtu2fA" name="Personal">
+    <packagedElement xmi:type="uml:Package" xmi:id="_aaLIutuVEe671onPXtu2fA" name="personal">
       <eAnnotations xmi:id="_aaLIu9uVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_XYx-wOYeEe6l94VYgStVdg" name="Factoria">
+    <packagedElement xmi:type="uml:Package" xmi:id="_XYx-wOYeEe6l94VYgStVdg" name="factoria">
       <eAnnotations xmi:id="_Yje3UOYeEe6l94VYgStVdg" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wosmIN_DEe62YMrw1elUTw" type="Class" name="FactoriaNegocio">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_zqkbsN_DEe62YMrw1elUTw" element="_DF47INubEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9048,7 +9048,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_5smaIN_EEe62YMrw1elUTw" supplier="_Hk6EINubEe671onPXtu2fA" client="_n8Q7MN73Ee6StrUwLZwVQQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_U4IDEOYiEe6l94VYgStVdg" name="ModeloAerolinea">
+    <packagedElement xmi:type="uml:Package" xmi:id="_U4IDEOYiEe6l94VYgStVdg" name="modeloAerolinea">
       <packagedElement xmi:type="uml:Class" xmi:id="_WgsjYOYiEe6l94VYgStVdg" name="TModeloAerolinea">
         <ownedAttribute xmi:id="_eX5wMOYiEe6l94VYgStVdg" name="idModelo" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -9092,7 +9092,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_JHqUgNuUEe671onPXtu2fA" name="integracion">
     <eAnnotations xmi:id="_JHqUgduUEe671onPXtu2fA" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFMNuVEe671onPXtu2fA" name="Modelo">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFMNuVEe671onPXtu2fA" name="modelo">
       <eAnnotations xmi:id="_bLsFMduVEe671onPXtu2fA" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Lovp0NuXEe671onPXtu2fA" type="Class" name="DCModeloI">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_QJcM8N78Ee6StrUwLZwVQQ" element="_QJa-0N78Ee6StrUwLZwVQQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9820,13 +9820,13 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_XtkpYOYmEe6l94VYgStVdg" supplier="_Tgx40OYmEe6l94VYgStVdg" client="_QJa-0N78Ee6StrUwLZwVQQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFMtuVEe671onPXtu2fA" name="Hangar">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFMtuVEe671onPXtu2fA" name="hangar">
       <eAnnotations xmi:id="_bLsFM9uVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNNuVEe671onPXtu2fA" name="Contrato">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNNuVEe671onPXtu2fA" name="contrato">
       <eAnnotations xmi:id="_bLsFNduVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNtuVEe671onPXtu2fA" name="Avión">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNtuVEe671onPXtu2fA" name="avion">
       <eAnnotations xmi:id="_bLsFN9uVEe671onPXtu2fA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_owguIOOCEe65I9BvgcChUw" name="DAOAvion">
         <ownedOperation xmi:id="_xBJHkOOCEe65I9BvgcChUw" name="consultarAvionesPorModelo">
@@ -9847,7 +9847,7 @@
         </ownedOperation>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFONuVEe671onPXtu2fA" name="Aerolínea">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFONuVEe671onPXtu2fA" name="aerolinea">
       <eAnnotations xmi:id="_bLsFOduVEe671onPXtu2fA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_yuWdIOR7Ee6gfvFSH037LA" name="DAOAerolinea">
         <ownedOperation xmi:id="_2U2pwOR7Ee6gfvFSH037LA" name="leerAerolineaPorId">
@@ -9858,10 +9858,10 @@
         </ownedOperation>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFOtuVEe671onPXtu2fA" name="Personal">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bLsFOtuVEe671onPXtu2fA" name="personal">
       <eAnnotations xmi:id="_bLsFO9uVEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_8FLOMOYeEe6l94VYgStVdg" name="Factoria">
+    <packagedElement xmi:type="uml:Package" xmi:id="_8FLOMOYeEe6l94VYgStVdg" name="factoria">
       <eAnnotations xmi:id="__bseEOYeEe6l94VYgStVdg" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_PR2EQN_FEe62YMrw1elUTw" type="Class" name="FactoriaIntegracion">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_WWRJQN_FEe62YMrw1elUTw" element="_mLjEIN76Ee6StrUwLZwVQQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9986,7 +9986,7 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_mWdPYN_FEe62YMrw1elUTw" supplier="_tGGJgN78Ee6StrUwLZwVQQ" client="_NfWlQN78Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_1jEngOR7Ee6gfvFSH037LA" supplier="_yuWdIOR7Ee6gfvFSH037LA" client="_NfWlQN78Ee6StrUwLZwVQQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_RknuIOYmEe6l94VYgStVdg" name="ModeloAerolinea">
+    <packagedElement xmi:type="uml:Package" xmi:id="_RknuIOYmEe6l94VYgStVdg" name="modeloAerolinea">
       <packagedElement xmi:type="uml:Class" xmi:id="_Tgx40OYmEe6l94VYgStVdg" name="DAOModeloAerolinea">
         <ownedOperation xmi:id="_c1oIUOYmEe6l94VYgStVdg" name="vincular">
           <ownedParameter xmi:id="_jvaqoOYmEe6l94VYgStVdg" name="Parameter1" direction="return">
