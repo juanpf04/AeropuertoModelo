@@ -5786,6 +5786,25 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_zIAM4ObkEe6tG_GHPIU2iw" name="toJSON">
+          <ownedParameter xmi:id="_0tx34ObkEe6tG_GHPIU2iw" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2VXgwObkEe6tG_GHPIU2iw" name="TModelo">
+          <ownedParameter xmi:id="_5pRhgObkEe6tG_GHPIU2iw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="__x-lIObkEe6tG_GHPIU2iw" name="nombre">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_B077YOblEe6tG_GHPIU2iw" name="motor">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9BrAsObkEe6tG_GHPIU2iw" name="activo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_Hk6EINubEe671onPXtu2fA" name="SAModelo">
         <ownedOperation xmi:id="_Z6cw0N74Ee6StrUwLZwVQQ" name="altaModelo">
