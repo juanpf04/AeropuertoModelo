@@ -3186,7 +3186,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_8rd8wNuXEe671onPXtu2fA" name="Controlador" clientDependency="_bFFcIN7xEe6StrUwLZwVQQ" isAbstract="true">
         <ownedAttribute xmi:id="_0crZsN71Ee6StrUwLZwVQQ" name="instancia" visibility="private" isStatic="true" type="_8rd8wNuXEe671onPXtu2fA"/>
-        <ownedOperation xmi:id="_GvTZUN7yEe6StrUwLZwVQQ" name="getInstance" isStatic="true" isAbstract="true">
+        <ownedOperation xmi:id="_GvTZUN7yEe6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_PstHQN70Ee6StrUwLZwVQQ" name="Parameter1" type="_8rd8wNuXEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_XYPFAN7zEe6StrUwLZwVQQ" name="accion" isAbstract="true">
@@ -5376,7 +5376,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_HbH9YNuYEe671onPXtu2fA" name="FactoriaPresentacion" clientDependency="_GeXowOBPEe6W7Nb7jNcwPA" isAbstract="true">
         <ownedAttribute xmi:id="_-X7FYN72Ee6StrUwLZwVQQ" name="instancia" visibility="private" isStatic="true" type="_HbH9YNuYEe671onPXtu2fA"/>
-        <ownedOperation xmi:id="_oFI1QN71Ee6StrUwLZwVQQ" name="getInstance" isStatic="true" isAbstract="true">
+        <ownedOperation xmi:id="_oFI1QN71Ee6StrUwLZwVQQ" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_qu5s0N71Ee6StrUwLZwVQQ" name="Parameter1" type="_HbH9YNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_FvjPsN72Ee6StrUwLZwVQQ" name="crearVistaAltaModelo">
