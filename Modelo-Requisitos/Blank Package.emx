@@ -5833,7 +5833,7 @@
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_wcqGEOK0Ee6_FZpPiExVHg" name="modificarModelo">
-          <ownedParameter xmi:id="_Q4zBQOK1Ee6_FZpPiExVHg" name="modelo" type="_tNM7INubEe671onPXtu2fA"/>
+          <ownedParameter xmi:id="_Q4zBQOK1Ee6_FZpPiExVHg" name="tModelo" type="_tNM7INubEe671onPXtu2fA"/>
           <ownedParameter xmi:id="_WlSC8OK1Ee6_FZpPiExVHg" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
