@@ -9217,9 +9217,6 @@
         <ownedAttribute xmi:id="_fX-GEOYiEe6l94VYgStVdg" name="idAerolinea" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_DH8RwOedEe6SL5m_VH-6Kw" name="activo" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedAttribute>
         <ownedOperation xmi:id="_jNdw8OYiEe6l94VYgStVdg" name="TModeloAerolinea">
           <ownedParameter xmi:id="_kWyJcOYiEe6l94VYgStVdg" name="Parameter1" type="_WgsjYOYiEe6l94VYgStVdg" direction="return"/>
         </ownedOperation>
@@ -9243,16 +9240,6 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_GG5WMOedEe6SL5m_VH-6Kw" name="getActivo">
-          <ownedParameter xmi:id="_HQ9VkOedEe6SL5m_VH-6Kw" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_IZZkUOedEe6SL5m_VH-6Kw" name="setActivo">
-          <ownedParameter xmi:id="_JjweoOedEe6SL5m_VH-6Kw" name="activo">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-          </ownedParameter>
-        </ownedOperation>
         <ownedOperation xmi:id="_L28CMOedEe6SL5m_VH-6Kw" name="TModeloAerolinea">
           <ownedParameter xmi:id="_NX9JAOedEe6SL5m_VH-6Kw" name="Parameter1" type="_WgsjYOYiEe6l94VYgStVdg" direction="return"/>
           <ownedParameter xmi:id="_O_5XMOedEe6SL5m_VH-6Kw" name="idModelo">
@@ -9260,9 +9247,6 @@
           </ownedParameter>
           <ownedParameter xmi:id="_QspM4OedEe6SL5m_VH-6Kw" name="idAerolinea">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_TeBvYOedEe6SL5m_VH-6Kw" name="activo">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_HrfOEOegEe6SL5m_VH-6Kw" name="toJSON">
