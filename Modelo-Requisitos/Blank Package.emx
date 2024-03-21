@@ -9067,6 +9067,26 @@
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="__YYyoOejEe6SL5m_VH-6Kw" name="setId">
+          <ownedParameter xmi:id="_AzYJ8OekEe6SL5m_VH-6Kw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_EVBEsOekEe6SL5m_VH-6Kw" name="getIdAerolinea">
+          <ownedParameter xmi:id="_IFGEEOekEe6SL5m_VH-6Kw" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_FoSDYOekEe6SL5m_VH-6Kw" name="getIdModelo">
+          <ownedParameter xmi:id="_I_q18OekEe6SL5m_VH-6Kw" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Gt_uQOekEe6SL5m_VH-6Kw" name="getIdHangar">
+          <ownedParameter xmi:id="_J5idMOekEe6SL5m_VH-6Kw" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aaLIuNuVEe671onPXtu2fA" name="aerolinea">
