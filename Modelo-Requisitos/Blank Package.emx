@@ -8939,7 +8939,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_aliyUOOEEe65I9BvgcChUw" name="fechaFabricacion" visibility="private">
-          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.time.LocalDate%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_t8YrMOOEEe65I9BvgcChUw" name="nombre" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
@@ -8971,7 +8971,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_G7zWIOOFEe65I9BvgcChUw" name="getFechaFabricacion">
           <ownedParameter xmi:id="_PKsDIOOFEe65I9BvgcChUw" name="Parameter1" direction="return">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.time.LocalDate%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_IdGJwOOFEe65I9BvgcChUw" name="getNombre">
@@ -8999,7 +8999,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_9gGCIOYgEe6l94VYgStVdg" name="setFechaFabricacion">
           <ownedParameter xmi:id="_KIxZ4OYhEe6l94VYgStVdg" name="fechaFabricacion">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.time.LocalDate%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_-5s5YOYgEe6l94VYgStVdg" name="setNombre">
