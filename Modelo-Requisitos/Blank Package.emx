@@ -9102,7 +9102,7 @@
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_e-4RgOefEe6SL5m_VH-6Kw" name="activo" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_I_ojUOR7Ee6gfvFSH037LA" name="TAerolinea"/>
         <ownedOperation xmi:id="_KR2ZIOR7Ee6gfvFSH037LA" name="getId">
