@@ -5799,7 +5799,7 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_v8s8gN73Ee6StrUwLZwVQQ" name="ValidadorModelo" clientDependency="_Tj7MQN77Ee6StrUwLZwVQQ">
-        <ownedOperation xmi:id="_lmsVgN74Ee6StrUwLZwVQQ" name="comprobarDatosModelo">
+        <ownedOperation xmi:id="_lmsVgN74Ee6StrUwLZwVQQ" name="comprobarDatosModelo" isStatic="true">
           <ownedParameter xmi:id="_oA4gAN74Ee6StrUwLZwVQQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
@@ -9279,11 +9279,16 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_n4yJMOYlEe6l94VYgStVdg" name="ValidadorModeloAerolinea">
-        <ownedOperation xmi:id="_solgMOYlEe6l94VYgStVdg" name="comprobarDatosModeloAerolinea">
+        <ownedOperation xmi:id="_solgMOYlEe6l94VYgStVdg" name="comprobarDatosModeloAerolinea" isStatic="true">
           <ownedParameter xmi:id="_vkQnIOYlEe6l94VYgStVdg" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_3KNE0OYlEe6l94VYgStVdg" name="tModeloAerolinea" type="_WgsjYOYiEe6l94VYgStVdg"/>
+          <ownedParameter xmi:id="_2mLUkOwhEe6QWbWwnh6fXw" name="idModelo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4l5woOwhEe6QWbWwnh6fXw" name="idAerolinea">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
     </packagedElement>
