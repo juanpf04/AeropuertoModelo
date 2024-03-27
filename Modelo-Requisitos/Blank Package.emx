@@ -5754,15 +5754,11 @@
           <ownedParameter xmi:id="_3o1_8OK0Ee6_FZpPiExVHg" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_574ZkOK0Ee6_FZpPiExVHg" name="id">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_574ZkOK0Ee6_FZpPiExVHg" name="tModelo" type="_tNM7INubEe671onPXtu2fA"/>
         </ownedOperation>
         <ownedOperation xmi:id="_rXs-cOK0Ee6_FZpPiExVHg" name="consultarModelo">
           <ownedParameter xmi:id="_B5phYOK1Ee6_FZpPiExVHg" name="Parameter1" type="_tNM7INubEe671onPXtu2fA" direction="return"/>
-          <ownedParameter xmi:id="_Ffp-wOK1Ee6_FZpPiExVHg" name="id">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_Ffp-wOK1Ee6_FZpPiExVHg" name="tModelo" type="_tNM7INubEe671onPXtu2fA"/>
         </ownedOperation>
         <ownedOperation xmi:id="_umcyYOK0Ee6_FZpPiExVHg" name="consultarTodosModelos">
           <ownedParameter xmi:id="_IRzWQOK1Ee6_FZpPiExVHg" name="Parameter1" direction="return">
@@ -5776,23 +5772,13 @@
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_yyG6gOK0Ee6_FZpPiExVHg" name="vincularModelo">
-          <ownedParameter xmi:id="_Ze8XsOK1Ee6_FZpPiExVHg" name="idModelo">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_cxfGgOK1Ee6_FZpPiExVHg" name="idAerolinea">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_cxfGgOK1Ee6_FZpPiExVHg" name="tModeloAerolinea" type="_WgsjYOYiEe6l94VYgStVdg"/>
           <ownedParameter xmi:id="_gS0fQOK1Ee6_FZpPiExVHg" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_0GTtUOK0Ee6_FZpPiExVHg" name="desvincularModelo">
-          <ownedParameter xmi:id="_iBg1sOK1Ee6_FZpPiExVHg" name="idModelo">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_kNDgMOK1Ee6_FZpPiExVHg" name="idAerolinea">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_kNDgMOK1Ee6_FZpPiExVHg" name="tModeloAerolinea" type="_WgsjYOYiEe6l94VYgStVdg"/>
           <ownedParameter xmi:id="_nhvkEOK1Ee6_FZpPiExVHg" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
