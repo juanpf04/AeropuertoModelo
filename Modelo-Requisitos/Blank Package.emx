@@ -10,7 +10,11 @@
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_GIYf8NuUEe671onPXtu2fA" name="presentacion">
     <eAnnotations xmi:id="_GIiQ8NuUEe671onPXtu2fA" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cs2u4O7OEe6B6NtYZRN9xw" name="VistaPrincipal" clientDependency="_gih_8O7OEe6B6NtYZRN9xw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cs2u4O7OEe6B6NtYZRN9xw" name="VistaPrincipal" clientDependency="_gih_8O7OEe6B6NtYZRN9xw _yZLKAO7REe6B6NtYZRN9xw _2wGuAO7REe6B6NtYZRN9xw">
+      <generalization xmi:id="_r0pGAO7REe6B6NtYZRN9xw">
+        <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+      </generalization>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VfcwkNuUEe671onPXtu2fA" name="modelo">
       <eAnnotations xmi:id="_VfcwkduUEe671onPXtu2fA" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_PE3LYNuXEe671onPXtu2fA" type="Class" name="DCAltaModeloP">
@@ -1317,7 +1321,11 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_KWrBwO7OEe6B6NtYZRN9xw" name="VistaModelo" clientDependency="_VldOYO7OEe6B6NtYZRN9xw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KWrBwO7OEe6B6NtYZRN9xw" name="VistaModelo" clientDependency="_VldOYO7OEe6B6NtYZRN9xw _wye5AO7REe6B6NtYZRN9xw _0u2A4O7REe6B6NtYZRN9xw">
+        <generalization xmi:id="_lcLIEO7REe6B6NtYZRN9xw">
+          <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+        </generalization>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_s9lHkNuXEe671onPXtu2fA" name="VistaAltaModelo" clientDependency="_bIbRoNucEe671onPXtu2fA _jczioNucEe671onPXtu2fA _Nc-K8ORzEe6gfvFSH037LA">
         <generalization xmi:id="_zbqiEOYbEe6l94VYgStVdg">
           <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
@@ -3015,6 +3023,10 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_RcB6wOaSEe6tipYeRjCOEw" supplier="_8rd8wNuXEe671onPXtu2fA" client="_5Sw0sOaREe6tipYeRjCOEw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_SLPxMOaSEe6tipYeRjCOEw" supplier="_8rd8wNuXEe671onPXtu2fA" client="_78-_QOaREe6tipYeRjCOEw"/>
       <packagedElement xmi:type="uml:Realization" xmi:id="_VldOYO7OEe6B6NtYZRN9xw" supplier="__18fQNuYEe671onPXtu2fA" client="_KWrBwO7OEe6B6NtYZRN9xw"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_wye5AO7REe6B6NtYZRN9xw" supplier="_8rd8wNuXEe671onPXtu2fA" client="_KWrBwO7OEe6B6NtYZRN9xw"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_0u2A4O7REe6B6NtYZRN9xw" client="_KWrBwO7OEe6B6NtYZRN9xw">
+        <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Interface"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_fNp7QNuUEe671onPXtu2fA" name="hangar">
       <eAnnotations xmi:id="_fNwB4NuUEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -5531,10 +5543,10 @@
         <ownedOperation xmi:id="_GklV4OYrEe6l94VYgStVdg" name="crearVistaFalloModificarModelo" isAbstract="true">
           <ownedParameter xmi:id="_LC2Q8OYrEe6l94VYgStVdg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_kdrm4O7OEe6B6NtYZRN9xw" name="crearVistaModelo">
+        <ownedOperation xmi:id="_kdrm4O7OEe6B6NtYZRN9xw" name="crearVistaModelo" isAbstract="true">
           <ownedParameter xmi:id="_s7qf0O7OEe6B6NtYZRN9xw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_nAzq8O7OEe6B6NtYZRN9xw" name="CrearVistaPrincipal">
+        <ownedOperation xmi:id="_nAzq8O7OEe6B6NtYZRN9xw" name="CrearVistaPrincipal" isAbstract="true">
           <ownedParameter xmi:id="_zXViwO7OEe6B6NtYZRN9xw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
@@ -5562,6 +5574,10 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_cs7nYO7OEe6B6NtYZRN9xw" supplier="_cs2u4O7OEe6B6NtYZRN9xw" client="_28X2gNuYEe671onPXtu2fA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Realization" xmi:id="_gih_8O7OEe6B6NtYZRN9xw" supplier="__18fQNuYEe671onPXtu2fA" client="_cs2u4O7OEe6B6NtYZRN9xw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_yZLKAO7REe6B6NtYZRN9xw" supplier="_8rd8wNuXEe671onPXtu2fA" client="_cs2u4O7OEe6B6NtYZRN9xw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_2wGuAO7REe6B6NtYZRN9xw" client="_cs2u4O7OEe6B6NtYZRN9xw">
+      <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Interface"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_HmdAcNuUEe671onPXtu2fA" name="negocio">
     <eAnnotations xmi:id="_HmdAcduUEe671onPXtu2fA" source="uml2.diagrams"/>
