@@ -1316,7 +1316,7 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_s9lHkNuXEe671onPXtu2fA" name="VistaAltaDeModelo" clientDependency="_bIbRoNucEe671onPXtu2fA _jczioNucEe671onPXtu2fA _Nc-K8ORzEe6gfvFSH037LA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_s9lHkNuXEe671onPXtu2fA" name="VistaAltaModelo" clientDependency="_bIbRoNucEe671onPXtu2fA _jczioNucEe671onPXtu2fA _Nc-K8ORzEe6gfvFSH037LA">
         <generalization xmi:id="_zbqiEOYbEe6l94VYgStVdg">
           <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
         </generalization>
