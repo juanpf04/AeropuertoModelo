@@ -3042,7 +3042,11 @@
       <eAnnotations xmi:id="_9P18gNuUEe671onPXtu2fA" source="uml2.diagrams"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_B5XFUNuVEe671onPXtu2fA" name="aerolinea">
-      <eAnnotations xmi:id="_B5XFUduVEe671onPXtu2fA" source="uml2.diagrams"/>
+      <eAnnotations xmi:id="_B5XFUduVEe671onPXtu2fA" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Hv5B8PHdEe6gvMTxSKv8Gw" type="Class" name="DCAltaAerolineaP">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_GQ3RENuVEe671onPXtu2fA" name="personal">
       <eAnnotations xmi:id="_GQ9XsNuVEe671onPXtu2fA" source="uml2.diagrams"/>
