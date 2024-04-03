@@ -4571,7 +4571,7 @@
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mqYJ4PHtEe688PmI1dmbww" name="ConsultarHangarPorId">
           <eAnnotations xmi:id="_mqYw8PHtEe688PmI1dmbww" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mqYw8fHtEe688PmI1dmbww" type="Sequence" element="_mqYJ4PHtEe688PmI1dmbww" name="DSConsultarHangarPorId" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mqYw8fHtEe688PmI1dmbww" type="Sequence" element="_mqYJ4PHtEe688PmI1dmbww" name="DSConsultarHangarPorIdP" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_mqYw8vHtEe688PmI1dmbww" element="_mqYJ4PHtEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_mqYw8_HtEe688PmI1dmbww" type="interaction_compartment">
                   <eAnnotations xmi:id="_32qPsPHtEe688PmI1dmbww" source="Himetric"/>
@@ -4767,7 +4767,7 @@
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_SVGdYPHuEe688PmI1dmbww" name="ConsultarTodosHangares">
           <eAnnotations xmi:id="_SVHEcPHuEe688PmI1dmbww" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_SVHEcfHuEe688PmI1dmbww" type="Sequence" element="_SVGdYPHuEe688PmI1dmbww" name="DSConsultarTodosHangares" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_SVHEcfHuEe688PmI1dmbww" type="Sequence" element="_SVGdYPHuEe688PmI1dmbww" name="DSConsultarTodosHangaresP" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_SVHEcvHuEe688PmI1dmbww" element="_SVGdYPHuEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_SVHEc_HuEe688PmI1dmbww" type="interaction_compartment">
                   <eAnnotations xmi:id="_wM824PHuEe688PmI1dmbww" source="Himetric"/>
@@ -4892,7 +4892,7 @@
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mXEW4PHuEe688PmI1dmbww" name="ModificarHangar">
           <eAnnotations xmi:id="_mXE98PHuEe688PmI1dmbww" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mXE98fHuEe688PmI1dmbww" type="Sequence" element="_mXEW4PHuEe688PmI1dmbww" name="DSModificarHangar" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mXE98fHuEe688PmI1dmbww" type="Sequence" element="_mXEW4PHuEe688PmI1dmbww" name="DSModificarHangarP" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_mXE98vHuEe688PmI1dmbww" element="_mXEW4PHuEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_mXE98_HuEe688PmI1dmbww" type="interaction_compartment">
                   <eAnnotations xmi:id="_wmOSgPHuEe688PmI1dmbww" source="Himetric"/>
@@ -12105,6 +12105,63 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_SCyCgPHnEe6DmqfzofTccQ" supplier="_PsaBAPHnEe6DmqfzofTccQ" client="_C4WfsPHnEe6DmqfzofTccQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_c0tUAPHnEe6DmqfzofTccQ" supplier="_KTQ64OebEe6SL5m_VH-6Kw" client="_C4WfsPHnEe6DmqfzofTccQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_dXR1kPHnEe6DmqfzofTccQ" supplier="_LeGSEOOEEe65I9BvgcChUw" client="_C4WfsPHnEe6DmqfzofTccQ"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_TJljcPHwEe688PmI1dmbww" name="Diagramas de secuencia">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_TJmxkPHwEe688PmI1dmbww" name="AltaHangar">
+          <eAnnotations xmi:id="_TJnYoPHwEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_TJnYofHwEe688PmI1dmbww" type="Sequence" element="_TJmxkPHwEe688PmI1dmbww" name="DSAltaHangarN" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_TJnYovHwEe688PmI1dmbww" element="_TJmxkPHwEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_TJnYo_HwEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_TJnYpPHwEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TJnYpfHwEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_1GIhcPHwEe688PmI1dmbww" name="BajaHangar">
+          <eAnnotations xmi:id="_1GIhcfHwEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_1GIhcvHwEe688PmI1dmbww" type="Sequence" element="_1GIhcPHwEe688PmI1dmbww" name="DSBajaHangarN" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_1GIhc_HwEe688PmI1dmbww" element="_1GIhcPHwEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_1GIhdPHwEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_1GIhdfHwEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1GIhdvHwEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_4tAhgPHwEe688PmI1dmbww" name="ConsultarHangarPorId">
+          <eAnnotations xmi:id="_4tBIkPHwEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_4tBIkfHwEe688PmI1dmbww" type="Sequence" element="_4tAhgPHwEe688PmI1dmbww" name="DSConsultarHangarPorIdN" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_4tBIkvHwEe688PmI1dmbww" element="_4tAhgPHwEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4tBIk_HwEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_4tBIlPHwEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4tBIlfHwEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_-HEWcPHwEe688PmI1dmbww" name="ConsultarTodosHangares">
+          <eAnnotations xmi:id="_-HE9gPHwEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-HE9gfHwEe688PmI1dmbww" type="Sequence" element="_-HEWcPHwEe688PmI1dmbww" name="DSConsultarTodosHangaresN" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_-HE9gvHwEe688PmI1dmbww" element="_-HEWcPHwEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_-HE9g_HwEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_-HE9hPHwEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-HE9hfHwEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Cby7APHxEe688PmI1dmbww" name="ModificarHangar">
+          <eAnnotations xmi:id="_CbziEPHxEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_CbziEfHxEe688PmI1dmbww" type="Sequence" element="_Cby7APHxEe688PmI1dmbww" name="DSModificarHangarN" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_CbziEvHxEe688PmI1dmbww" element="_Cby7APHxEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_CbziE_HxEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_CbziFPHxEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CbziFfHxEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aaLItNuVEe671onPXtu2fA" name="contrato">
       <eAnnotations xmi:id="_aaLItduVEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -14801,6 +14858,63 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_VIjXUOxaEe6oYL5Vnhl4IA" client="_RF6vsOxXEe6oYL5Vnhl4IA">
         <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.FileWriter%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_NUWY8PHxEe688PmI1dmbww" name="Diagramas de secuencia">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_NUYOIPHxEe688PmI1dmbww" name="AltaHangar">
+          <eAnnotations xmi:id="_NUY1MPHxEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NUY1MfHxEe688PmI1dmbww" type="Sequence" element="_NUYOIPHxEe688PmI1dmbww" name="DSAltaHangarI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_NUY1MvHxEe688PmI1dmbww" element="_NUYOIPHxEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_NUY1M_HxEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_NUY1NPHxEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NUY1NfHxEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_TpjAcPHxEe688PmI1dmbww" name="BajaHangar">
+          <eAnnotations xmi:id="_TpjngPHxEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_TpjngfHxEe688PmI1dmbww" type="Sequence" element="_TpjAcPHxEe688PmI1dmbww" name="DSBajaHangarI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_TpjngvHxEe688PmI1dmbww" element="_TpjAcPHxEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Tpjng_HxEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_TpjnhPHxEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TpjnhfHxEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ZzrAYPHxEe688PmI1dmbww" name="ConsultarHangarPorId">
+          <eAnnotations xmi:id="_ZzrAYfHxEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ZzrncPHxEe688PmI1dmbww" type="Sequence" element="_ZzrAYPHxEe688PmI1dmbww" name="DSConsultarHangarPorIdI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_ZzrncfHxEe688PmI1dmbww" element="_ZzrAYPHxEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZzrncvHxEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Zzrnc_HxEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZzrndPHxEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_d2O24PHxEe688PmI1dmbww" name="ConsultarTodosHangares">
+          <eAnnotations xmi:id="_d2Pd8PHxEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_d2Pd8fHxEe688PmI1dmbww" type="Sequence" element="_d2O24PHxEe688PmI1dmbww" name="DSConsultarTodosHangaresI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_d2Pd8vHxEe688PmI1dmbww" element="_d2O24PHxEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_d2Pd8_HxEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_d2Pd9PHxEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d2Pd9fHxEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_hulBcPHxEe688PmI1dmbww" name="ModificarHangar">
+          <eAnnotations xmi:id="_humPkPHxEe688PmI1dmbww" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_humPkfHxEe688PmI1dmbww" type="Sequence" element="_hulBcPHxEe688PmI1dmbww" name="DSModificarHangarI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_humPkvHxEe688PmI1dmbww" element="_hulBcPHxEe688PmI1dmbww" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_humPk_HxEe688PmI1dmbww" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_humPlPHxEe688PmI1dmbww" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_humPlfHxEe688PmI1dmbww" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bLsFNNuVEe671onPXtu2fA" name="contrato">
