@@ -12092,7 +12092,7 @@
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_zHCaYPNXEe6kfL2e4ZO5KA" name="Alta Aerolinea">
           <eAnnotations xmi:id="_zHDBcPNXEe6kfL2e4ZO5KA" source="uml2.diagrams">
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zHDBcfNXEe6kfL2e4ZO5KA" type="Sequence" element="_zHCaYPNXEe6kfL2e4ZO5KA" name="DSAltaAerolineaN" measurementUnit="Himetric">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_zHDBcvNXEe6kfL2e4ZO5KA" element="_zHCaYPNXEe6kfL2e4ZO5KA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_zHDBcvNXEe6kfL2e4ZO5KA" element="_zHCaYPNXEe6kfL2e4ZO5KA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_zHDBc_NXEe6kfL2e4ZO5KA" type="interaction_compartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_oRTVAPNZEe6kfL2e4ZO5KA" element="_oRQ4wPNZEe6kfL2e4ZO5KA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_oRTVAvNZEe6kfL2e4ZO5KA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
