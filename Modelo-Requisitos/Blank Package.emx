@@ -11089,24 +11089,6 @@
               <children xmi:type="umlnotation:UMLShape" xmi:id="_-k4jsuaTEe6tipYeRjCOEw" element="_-kuysOaTEe6tipYeRjCOEw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_-k4js-aTEe6tipYeRjCOEw" type="interaction_compartment">
                   <eAnnotations xmi:id="_Niz7kOaUEe6tipYeRjCOEw" source="Himetric"/>
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_Ni6CROaUEe6tipYeRjCOEw" element="_Niz7l-aUEe6tipYeRjCOEw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <eAnnotations xmi:id="_Ni6CReaUEe6tipYeRjCOEw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
-                      <details xmi:id="_Ni6CRuaUEe6tipYeRjCOEw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
-                    </eAnnotations>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ni6CR-aUEe6tipYeRjCOEw" type="Stereotype"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ni6CSOaUEe6tipYeRjCOEw" type="Name"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ni6CSeaUEe6tipYeRjCOEw" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ni6CSuaUEe6tipYeRjCOEw" x="633" y="396" width="2979" height="18009"/>
-                  </children>
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_Ni6CS-aUEe6tipYeRjCOEw" element="_Niz7luaUEe6tipYeRjCOEw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <eAnnotations xmi:id="_Ni6CTOaUEe6tipYeRjCOEw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
-                      <details xmi:id="_Ni6CTeaUEe6tipYeRjCOEw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
-                    </eAnnotations>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ni6CTuaUEe6tipYeRjCOEw" type="Stereotype"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ni6CT-aUEe6tipYeRjCOEw" type="Name"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ni6CUOaUEe6tipYeRjCOEw" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ni6CUeaUEe6tipYeRjCOEw" x="633" y="396" width="3067" height="17145"/>
-                  </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_Ni6CUuaUEe6tipYeRjCOEw" element="_Niz7leaUEe6tipYeRjCOEw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_Ni6CU-aUEe6tipYeRjCOEw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
                       <details xmi:id="_Ni6CVOaUEe6tipYeRjCOEw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
@@ -11391,8 +11373,6 @@
           <lifeline xmi:id="_Niz7k-aUEe6tipYeRjCOEw" name="validador" represents="_HVmQUN_OEe62YMrw1elUTw" coveredBy="_Niz7o-aUEe6tipYeRjCOEw _Niz7pOaUEe6tipYeRjCOEw _Niz7peaUEe6tipYeRjCOEw _Niz7rOaUEe6tipYeRjCOEw _dS2s4OaUEe6tipYeRjCOEw _qePwIOaUEe6tipYeRjCOEw _XOUjcOeYEe6SL5m_VH-6Kw"/>
           <lifeline xmi:id="_Niz7lOaUEe6tipYeRjCOEw" name="factoriaIntegracion" represents="_fhM4sd_OEe62YMrw1elUTw" coveredBy="_Niz7qOaUEe6tipYeRjCOEw _Niz7qeaUEe6tipYeRjCOEw _Niz7quaUEe6tipYeRjCOEw _Niz7rOaUEe6tipYeRjCOEw _Niz7seaUEe6tipYeRjCOEw _Niz7suaUEe6tipYeRjCOEw _Niz7s-aUEe6tipYeRjCOEw _dS2s4OaUEe6tipYeRjCOEw _qePwIOaUEe6tipYeRjCOEw _XOUjcOeYEe6SL5m_VH-6Kw"/>
           <lifeline xmi:id="_Niz7leaUEe6tipYeRjCOEw" name="dAOModelo" represents="_hOtjYN_OEe62YMrw1elUTw" coveredBy="_Niz7rOaUEe6tipYeRjCOEw _Niz7tuaUEe6tipYeRjCOEw _Niz7t-aUEe6tipYeRjCOEw _Niz7uOaUEe6tipYeRjCOEw _dS2s4OaUEe6tipYeRjCOEw _ivn3kOaUEe6tipYeRjCOEw _ivn3keaUEe6tipYeRjCOEw _ivn3kuaUEe6tipYeRjCOEw _qePwIOaUEe6tipYeRjCOEw _XOUjcOeYEe6SL5m_VH-6Kw _hIbcIOeYEe6SL5m_VH-6Kw _hIcDMOeYEe6SL5m_VH-6Kw _hIcDMeeYEe6SL5m_VH-6Kw"/>
-          <lifeline xmi:id="_Niz7luaUEe6tipYeRjCOEw" name="tModelo" represents="_3Dx-oOYjEe6l94VYgStVdg" coveredBy="_Niz7rOaUEe6tipYeRjCOEw _dS2s4OaUEe6tipYeRjCOEw _qePwIOaUEe6tipYeRjCOEw _XOUjcOeYEe6SL5m_VH-6Kw"/>
-          <lifeline xmi:id="_Niz7l-aUEe6tipYeRjCOEw" name="tModelo2" represents="_64j30OYjEe6l94VYgStVdg" coveredBy="_Niz7rOaUEe6tipYeRjCOEw _dS2s4OaUEe6tipYeRjCOEw _qePwIOaUEe6tipYeRjCOEw _XOUjcOeYEe6SL5m_VH-6Kw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Niz7n-aUEe6tipYeRjCOEw" covered="_Niz7keaUEe6tipYeRjCOEw" event="_VNP3sOaUEe6tipYeRjCOEw" message="_Niz74uaUEe6tipYeRjCOEw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Niz7oOaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_VNP3seaUEe6tipYeRjCOEw" message="_Niz74uaUEe6tipYeRjCOEw"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Niz7oeaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" start="_Niz7oOaUEe6tipYeRjCOEw" finish="_Niz73-aUEe6tipYeRjCOEw"/>
@@ -11406,7 +11386,7 @@
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Niz7qeaUEe6tipYeRjCOEw" covered="_Niz7lOaUEe6tipYeRjCOEw" start="_Niz7qOaUEe6tipYeRjCOEw" finish="_Niz7quaUEe6tipYeRjCOEw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Niz7quaUEe6tipYeRjCOEw" covered="_Niz7lOaUEe6tipYeRjCOEw" event="_i3ZYcN_OEe62YMrw1elUTw" message="_Niz76OaUEe6tipYeRjCOEw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Niz7q-aUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_i3ZYcd_OEe62YMrw1elUTw" message="_Niz76OaUEe6tipYeRjCOEw"/>
-          <fragment xmi:type="uml:CombinedFragment" xmi:id="_Niz7rOaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7l-aUEe6tipYeRjCOEw _Niz7luaUEe6tipYeRjCOEw" interactionOperator="alt">
+          <fragment xmi:type="uml:CombinedFragment" xmi:id="_Niz7rOaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw" interactionOperator="alt">
             <operand xmi:id="_Niz7reaUEe6tipYeRjCOEw">
               <guard xmi:id="_Niz7ruaUEe6tipYeRjCOEw">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_Niz7r-aUEe6tipYeRjCOEw">
@@ -11424,12 +11404,12 @@
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Niz7t-aUEe6tipYeRjCOEw" covered="_Niz7leaUEe6tipYeRjCOEw" start="_Niz7tuaUEe6tipYeRjCOEw" finish="_Niz7uOaUEe6tipYeRjCOEw"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Niz7uOaUEe6tipYeRjCOEw" covered="_Niz7leaUEe6tipYeRjCOEw" event="_orntcOOKEe65I9BvgcChUw" message="_Niz77uaUEe6tipYeRjCOEw"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Niz7ueaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_oroUgOOKEe65I9BvgcChUw" message="_Niz77uaUEe6tipYeRjCOEw"/>
-              <fragment xmi:type="uml:CombinedFragment" xmi:id="_dS2s4OaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw _Niz7luaUEe6tipYeRjCOEw _Niz7l-aUEe6tipYeRjCOEw" interactionOperator="alt">
+              <fragment xmi:type="uml:CombinedFragment" xmi:id="_dS2s4OaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw" interactionOperator="alt">
                 <operand xmi:id="_dS2s4eaUEe6tipYeRjCOEw">
                   <guard xmi:id="_dS3T8OaUEe6tipYeRjCOEw">
                     <specification xmi:type="uml:OpaqueExpression" xmi:id="_dS37AOaUEe6tipYeRjCOEw">
                       <language></language>
-                      <body>tModelo != null</body>
+                      <body>entrada != null</body>
                     </specification>
                   </guard>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ivmpceaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_AG_CoN_QEe62YMrw1elUTw" message="_ivmpcOaUEe6tipYeRjCOEw"/>
@@ -11437,7 +11417,7 @@
                   <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ivn3keaUEe6tipYeRjCOEw" covered="_Niz7leaUEe6tipYeRjCOEw" start="_ivn3kOaUEe6tipYeRjCOEw" finish="_ivn3kuaUEe6tipYeRjCOEw"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ivn3kuaUEe6tipYeRjCOEw" covered="_Niz7leaUEe6tipYeRjCOEw" event="_AG_CoN_QEe62YMrw1elUTw" message="_ivn3k-aUEe6tipYeRjCOEw"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ivn3lOaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_AG_psN_QEe62YMrw1elUTw" message="_ivn3k-aUEe6tipYeRjCOEw"/>
-                  <fragment xmi:type="uml:CombinedFragment" xmi:id="_qePwIOaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw _Niz7luaUEe6tipYeRjCOEw _Niz7l-aUEe6tipYeRjCOEw" interactionOperator="alt">
+                  <fragment xmi:type="uml:CombinedFragment" xmi:id="_qePwIOaUEe6tipYeRjCOEw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw" interactionOperator="alt">
                     <operand xmi:id="_qeQXMOaUEe6tipYeRjCOEw">
                       <guard xmi:id="_qeQXMeaUEe6tipYeRjCOEw">
                         <specification xmi:type="uml:OpaqueExpression" xmi:id="_qeQ-QOaUEe6tipYeRjCOEw">
@@ -11445,12 +11425,12 @@
                           <body>tModelo == null</body>
                         </specification>
                       </guard>
-                      <fragment xmi:type="uml:CombinedFragment" xmi:id="_XOUjcOeYEe6SL5m_VH-6Kw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw _Niz7luaUEe6tipYeRjCOEw _Niz7l-aUEe6tipYeRjCOEw" interactionOperator="alt">
+                      <fragment xmi:type="uml:CombinedFragment" xmi:id="_XOUjcOeYEe6SL5m_VH-6Kw" covered="_Niz7kuaUEe6tipYeRjCOEw _Niz7k-aUEe6tipYeRjCOEw _Niz7lOaUEe6tipYeRjCOEw _Niz7leaUEe6tipYeRjCOEw" interactionOperator="alt">
                         <operand xmi:id="_XOZb8OeYEe6SL5m_VH-6Kw">
                           <guard xmi:id="_XPnj8OeYEe6SL5m_VH-6Kw">
                             <specification xmi:type="uml:OpaqueExpression" xmi:id="_XPqAMOeYEe6SL5m_VH-6Kw">
                               <language></language>
-                              <body>tModelo.getActivo == true</body>
+                              <body>entrada.getActivo == true</body>
                             </specification>
                           </guard>
                           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hIa1EOeYEe6SL5m_VH-6Kw" covered="_Niz7kuaUEe6tipYeRjCOEw" event="_IoGvIN_QEe62YMrw1elUTw" message="_hIaOAOeYEe6SL5m_VH-6Kw"/>
@@ -11463,7 +11443,7 @@
                           <guard xmi:id="_XPtDgOeYEe6SL5m_VH-6Kw">
                             <specification xmi:type="uml:OpaqueExpression" xmi:id="_XPtDgeeYEe6SL5m_VH-6Kw">
                               <language></language>
-                              <body>tModelo.getActivo == false</body>
+                              <body>entrada.getActivo == false</body>
                             </specification>
                           </guard>
                         </operand>
@@ -11483,7 +11463,7 @@
                   <guard xmi:id="_dS4iEeaUEe6tipYeRjCOEw">
                     <specification xmi:type="uml:OpaqueExpression" xmi:id="_dS5JIOaUEe6tipYeRjCOEw">
                       <language></language>
-                      <body>tModelo == -1</body>
+                      <body>entrada == null</body>
                     </specification>
                   </guard>
                 </operand>
@@ -11503,7 +11483,7 @@
           <message xmi:id="_Niz74eaUEe6tipYeRjCOEw" name="correcto = comprobarDatosModelo" receiveEvent="_Niz7o-aUEe6tipYeRjCOEw" sendEvent="_Niz7ouaUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz74uaUEe6tipYeRjCOEw" name="modificarModelo" receiveEvent="_Niz7oOaUEe6tipYeRjCOEw" sendEvent="_Niz7n-aUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz75OaUEe6tipYeRjCOEw" name="modificarModelo" messageSort="reply" receiveEvent="_Niz74OaUEe6tipYeRjCOEw" sendEvent="_Niz73-aUEe6tipYeRjCOEw"/>
-          <message xmi:id="_Niz75eaUEe6tipYeRjCOEw" name="tModelo = leerModeloPorId" receiveEvent="_Niz7tuaUEe6tipYeRjCOEw" sendEvent="_Niz7teaUEe6tipYeRjCOEw"/>
+          <message xmi:id="_Niz75eaUEe6tipYeRjCOEw" name="entrada = leerModeloPorId" receiveEvent="_Niz7tuaUEe6tipYeRjCOEw" sendEvent="_Niz7teaUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz76OaUEe6tipYeRjCOEw" name="getInstance" messageSort="reply" receiveEvent="_Niz7q-aUEe6tipYeRjCOEw" sendEvent="_Niz7quaUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz76eaUEe6tipYeRjCOEw" name="crearDAOModelo" messageSort="reply" receiveEvent="_Niz7tOaUEe6tipYeRjCOEw" sendEvent="_Niz7s-aUEe6tipYeRjCOEw"/>
           <message xmi:id="_Niz76-aUEe6tipYeRjCOEw" name="comprobarDatosModelo" messageSort="reply" receiveEvent="_Niz7puaUEe6tipYeRjCOEw" sendEvent="_Niz7peaUEe6tipYeRjCOEw"/>
