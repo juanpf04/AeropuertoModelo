@@ -19802,7 +19802,7 @@
         <ownedOperation xmi:id="_AFd-MOOKEe65I9BvgcChUw" name="crearDAOAvion" isAbstract="true">
           <ownedParameter xmi:id="_CGey0OR-Ee6gfvFSH037LA" name="Parameter1" type="_KTQ64OebEe6SL5m_VH-6Kw" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_6Ry14OR6Ee6gfvFSH037LA" name="crearDAOAeolinea" isAbstract="true">
+        <ownedOperation xmi:id="_6Ry14OR6Ee6gfvFSH037LA" name="crearDAOAerolinea" isAbstract="true">
           <ownedParameter xmi:id="_DjQS0OR-Ee6gfvFSH037LA" name="Parameter1" type="_QS4-MOefEe6SL5m_VH-6Kw" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_SzJtwOeaEe6SL5m_VH-6Kw" name="crearDAOModeloAerolinea" isAbstract="true">
