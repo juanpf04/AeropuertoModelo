@@ -13889,7 +13889,14 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_t7sTQOeYEe6SL5m_VH-6Kw" name="DAOAvionImp" clientDependency="_zqZigOeYEe6SL5m_VH-6Kw _rvGqcOeZEe6SL5m_VH-6Kw _ubkQsOeZEe6SL5m_VH-6Kw _xZcXEOeZEe6SL5m_VH-6Kw _0-kqsOeZEe6SL5m_VH-6Kw _4A8PgOeZEe6SL5m_VH-6Kw _cRHnkOebEe6SL5m_VH-6Kw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_t7sTQOeYEe6SL5m_VH-6Kw" name="DAOAvionImp" clientDependency="_zqZigOeYEe6SL5m_VH-6Kw _rvGqcOeZEe6SL5m_VH-6Kw _ubkQsOeZEe6SL5m_VH-6Kw _xZcXEOeZEe6SL5m_VH-6Kw _0-kqsOeZEe6SL5m_VH-6Kw _4A8PgOeZEe6SL5m_VH-6Kw _cRHnkOebEe6SL5m_VH-6Kw">
+        <ownedOperation xmi:id="_4gl-4PcOEe6x_Y5FXZ8Knw" name="toJSON" visibility="private">
+          <ownedParameter xmi:id="_-X6XkPcOEe6x_Y5FXZ8Knw" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_DYIJIPcPEe6x_Y5FXZ8Knw" name="tAvion" type="_LeGSEOOEEe65I9BvgcChUw"/>
+        </ownedOperation>
+      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_zqZigOeYEe6SL5m_VH-6Kw" supplier="_LeGSEOOEEe65I9BvgcChUw" client="_t7sTQOeYEe6SL5m_VH-6Kw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_rvGqcOeZEe6SL5m_VH-6Kw" client="_t7sTQOeYEe6SL5m_VH-6Kw">
         <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
