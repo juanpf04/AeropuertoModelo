@@ -3940,6 +3940,7 @@
           </edges>
         </contents>
       </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yrdS8PHpEe6DmqfzofTccQ" name="VistaHangar" clientDependency="_4Bm4QPHpEe6DmqfzofTccQ"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_44h9YPHiEe6DmqfzofTccQ" name="VistaAltaHangar" clientDependency="_Vnh4cPHjEe6DmqfzofTccQ _louEIPHjEe6DmqfzofTccQ _6tihwPHjEe6DmqfzofTccQ">
         <generalization xmi:id="_b4ybIPHjEe6DmqfzofTccQ">
           <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
@@ -5202,6 +5203,7 @@
       <packagedElement xmi:type="uml:CreationEvent" xmi:id="_OuHP8vHrEe6DmqfzofTccQ" name="CreationEvent1"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_PH6QAPHrEe6DmqfzofTccQ" name="SendOperationEvent1" operation="_NunAMOxYEe6oYL5Vnhl4IA"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ZCafYPHtEe688PmI1dmbww" name="SendOperationEvent3" operation="_nnZYkOxXEe6oYL5Vnhl4IA"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_4Bm4QPHpEe6DmqfzofTccQ" supplier="__18fQNuYEe671onPXtu2fA" client="_yrdS8PHpEe6DmqfzofTccQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_0XW44NuUEe671onPXtu2fA" name="contrato">
       <eAnnotations xmi:id="_0XW44duUEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -9395,10 +9397,8 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_MSQIEOaTEe6tipYeRjCOEw" supplier="_78-_QOaREe6tipYeRjCOEw" client="_28X2gNuYEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_KXDcQO7OEe6B6NtYZRN9xw" supplier="_KWrBwO7OEe6B6NtYZRN9xw" client="_28X2gNuYEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_cs7nYO7OEe6B6NtYZRN9xw" supplier="_cs2u4O7OEe6B6NtYZRN9xw" client="_28X2gNuYEe671onPXtu2fA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yrdS8PHpEe6DmqfzofTccQ" name="VistaHangar" clientDependency="_4Bm4QPHpEe6DmqfzofTccQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_2BCHoPHpEe6DmqfzofTccQ" supplier="_yrdS8PHpEe6DmqfzofTccQ" client="_28X2gNuYEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_2kZTYPHpEe6DmqfzofTccQ" supplier="_44h9YPHiEe6DmqfzofTccQ" client="_28X2gNuYEe671onPXtu2fA"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_4Bm4QPHpEe6DmqfzofTccQ" supplier="__18fQNuYEe671onPXtu2fA" client="_yrdS8PHpEe6DmqfzofTccQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_8Sih8PHpEe6DmqfzofTccQ" supplier="_ASYf0PHjEe6DmqfzofTccQ" client="_28X2gNuYEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_9VpkwPHpEe6DmqfzofTccQ" supplier="_CGZbIPHjEe6DmqfzofTccQ" client="_28X2gNuYEe671onPXtu2fA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_BxLU4PHqEe6DmqfzofTccQ" supplier="_R0sqkPHkEe6DmqfzofTccQ" client="_28X2gNuYEe671onPXtu2fA"/>
