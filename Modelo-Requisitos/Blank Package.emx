@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_uqQootuTEe671onPXtu2fA" name="Modelo de diseño">
   <eAnnotations xmi:id="_uqQoo9uTEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -12831,7 +12831,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_bY1LkN_CEe62YMrw1elUTw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_bY1Lkd_CEe62YMrw1elUTw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_bY1yoN_CEe62YMrw1elUTw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bYyIQd_CEe62YMrw1elUTw" x="11748" y="-13596"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bYyIQd_CEe62YMrw1elUTw" x="10160" y="-28067"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_bzjYsN_CEe62YMrw1elUTw" element="_28X2gNuYEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_bzj_wN_CEe62YMrw1elUTw" type="ImageCompartment">
@@ -14641,6 +14641,66 @@
         </ownedOperation>
         <ownedOperation xmi:id="_Gz4eEPyQEe6Q9YkefppCXg" name="crearVistaConsultarAerolineaPorId" isAbstract="true">
           <ownedParameter xmi:id="_IaRNEPyQEe6Q9YkefppCXg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4FkrMPy-Ee6hKNVXpvCZDQ" name="crearVistaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_61X5UPy-Ee6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BP8wEPy_Ee6hKNVXpvCZDQ" name="crearVistaAltaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_ULGWAPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_J8WfgPy_Ee6hKNVXpvCZDQ" name="crearVistaBajaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VVrSwPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LWfiQPy_Ee6hKNVXpvCZDQ" name="crearVistaModificarPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV1DwPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OD5jsPy_Ee6hKNVXpvCZDQ" name="crearVistaVincularPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV1DwfzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_S-kt8Py_Ee6hKNVXpvCZDQ" name="crearVistaDesvincularPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV1DwvzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_bJYMMPy_Ee6hKNVXpvCZDQ" name="crearVistaConsultarPersonalPorId" isAbstract="true">
+          <ownedParameter xmi:id="_VV1Dw_zAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ewQMQPy_Ee6hKNVXpvCZDQ" name="crearVistaConsultarPersonalExistente" isAbstract="true">
+          <ownedParameter xmi:id="_VV1DxPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_je9XEPy_Ee6hKNVXpvCZDQ" name="crearVistaExitoAltaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV1DxfzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_m_naYPy_Ee6hKNVXpvCZDQ" name="crearVistaFalloAltaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV7KYPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_o_bWAPy_Ee6hKNVXpvCZDQ" name="crearVistaExitoBajaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV7KYfzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uMiUEPy_Ee6hKNVXpvCZDQ" name="crearVistaFalloBajaPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV7KYvzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xo-lwPy_Ee6hKNVXpvCZDQ" name="crearVistaExitoModificarPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV7KY_zAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4BMsEPy_Ee6hKNVXpvCZDQ" name="crearVistaFalloModificarPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VV7KZPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_6Fb0sPy_Ee6hKNVXpvCZDQ" name="crearVistaExitoVincularPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VWBRAPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="__tbX8Py_Ee6hKNVXpvCZDQ" name="crearVistaFalloVincularPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VWBRAfzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_B-PkAPzAEe6hKNVXpvCZDQ" name="crearVistaExitoDesvincularPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VWBRAvzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_EouNQPzAEe6hKNVXpvCZDQ" name="crearVistaFalloDesvincularPersonal" isAbstract="true">
+          <ownedParameter xmi:id="_VWBRA_zAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HAD4EPzAEe6hKNVXpvCZDQ" name="crearVistaResultadoConsultarPersonalPorId" isAbstract="true">
+          <ownedParameter xmi:id="_VWBRBPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KeUusPzAEe6hKNVXpvCZDQ" name="crearVistaResultadoConsultarPersonalExistente" isAbstract="true">
+          <ownedParameter xmi:id="_VWHXoPzAEe6hKNVXpvCZDQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_GeXowOBPEe6W7Nb7jNcwPA" supplier="__18fQNuYEe671onPXtu2fA" client="_HbH9YNuYEe671onPXtu2fA"/>
@@ -23232,6 +23292,7 @@
         <ownedOperation xmi:id="_w4yxYPadEe6cyJN5swluCQ" name="crearSAAerolinea" isAbstract="true">
           <ownedParameter xmi:id="_bMclcPa4Ee6kgKRPt7VjqQ" name="Parameter1" type="_YiM2oPHfEe6gvMTxSKv8Gw" direction="return"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_cZiXEPzAEe6hKNVXpvCZDQ" name="crearSAPersonal" isAbstract="true"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_5smaIN_EEe62YMrw1elUTw" supplier="_Hk6EINubEe671onPXtu2fA" client="_n8Q7MN73Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_4BcIwPXREe6sOt9Oo-T4ow" supplier="_F9fEoPHnEe6DmqfzofTccQ" client="_n8Q7MN73Ee6StrUwLZwVQQ"/>
@@ -29925,6 +29986,7 @@
         <ownedOperation xmi:id="_ETqTEPOHEe6kHJ_mtqR5nQ" name="crearDAOContrato" isAbstract="true">
           <ownedParameter xmi:id="_Bh-rAPa7Ee6kgKRPt7VjqQ" name="Parameter1" type="_imWOcPOHEe6kHJ_mtqR5nQ" direction="return"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_lBr4oPzAEe6hKNVXpvCZDQ" name="crearDAOPersonal" isAbstract="true"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_mWdPYN_FEe62YMrw1elUTw" supplier="_tGGJgN78Ee6StrUwLZwVQQ" client="_NfWlQN78Ee6StrUwLZwVQQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_JRYPUPT9Ee66JqsLCL9wDQ" supplier="_P1AhcOxXEe6oYL5Vnhl4IA" client="_NfWlQN78Ee6StrUwLZwVQQ"/>
