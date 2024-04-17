@@ -8126,7 +8126,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_bY1LkN_CEe62YMrw1elUTw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_bY1Lkd_CEe62YMrw1elUTw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_bY1yoN_CEe62YMrw1elUTw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bYyIQd_CEe62YMrw1elUTw" x="11748" y="-5544"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bYyIQd_CEe62YMrw1elUTw" x="13161" y="-7380"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_bzjYsN_CEe62YMrw1elUTw" element="_28X2gNuYEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_bzj_wN_CEe62YMrw1elUTw" type="ImageCompartment">
@@ -9288,9 +9288,6 @@
         <ownedOperation xmi:id="_gdpfEOONEe65I9BvgcChUw" name="crearVistaBajaModelo" isAbstract="true">
           <ownedParameter xmi:id="_eeaKUOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_j5hJAOONEe65I9BvgcChUw" name="crearVistaConsultarTodosModelos" isAbstract="true">
-          <ownedParameter xmi:id="_gxQWsOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
-        </ownedOperation>
         <ownedOperation xmi:id="_mdndcOONEe65I9BvgcChUw" name="crearVistaResultadoConsultarTodosModelos" isAbstract="true">
           <ownedParameter xmi:id="_iBLtgOSBEe6gfvFSH037LA" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
@@ -9333,43 +9330,43 @@
         <ownedOperation xmi:id="_nAzq8O7OEe6B6NtYZRN9xw" name="CrearVistaPrincipal" isAbstract="true">
           <ownedParameter xmi:id="_zXViwO7OEe6B6NtYZRN9xw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_-1BpoPHlEe6DmqfzofTccQ" name="crearVistaHangar">
+        <ownedOperation xmi:id="_-1BpoPHlEe6DmqfzofTccQ" name="crearVistaHangar" isAbstract="true">
           <ownedParameter xmi:id="_CLcL0PHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_EpGhEPHmEe6DmqfzofTccQ" name="crearVistaAltaHangar">
+        <ownedOperation xmi:id="_EpGhEPHmEe6DmqfzofTccQ" name="crearVistaAltaHangar" isAbstract="true">
           <ownedParameter xmi:id="_Ky04YPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_GCU90PHmEe6DmqfzofTccQ" name="crearVistaExitoAltaHangar">
+        <ownedOperation xmi:id="_GCU90PHmEe6DmqfzofTccQ" name="crearVistaExitoAltaHangar" isAbstract="true">
           <ownedParameter xmi:id="_MEXYwPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_OHNaQPHmEe6DmqfzofTccQ" name="crearVistaFalloAltaHangar">
+        <ownedOperation xmi:id="_OHNaQPHmEe6DmqfzofTccQ" name="crearVistaFalloAltaHangar" isAbstract="true">
           <ownedParameter xmi:id="_P2VOgPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_RQxMMPHmEe6DmqfzofTccQ" name="crearVistaBajaHangar">
+        <ownedOperation xmi:id="_RQxMMPHmEe6DmqfzofTccQ" name="crearVistaBajaHangar" isAbstract="true">
           <ownedParameter xmi:id="_S4fX8PHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_UaGUoPHmEe6DmqfzofTccQ" name="crearVistaExitoBajaHangar">
+        <ownedOperation xmi:id="_UaGUoPHmEe6DmqfzofTccQ" name="crearVistaExitoBajaHangar" isAbstract="true">
           <ownedParameter xmi:id="_WM4g4PHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_XZgsEPHmEe6DmqfzofTccQ" name="crearVistaFalloBajaHangar">
+        <ownedOperation xmi:id="_XZgsEPHmEe6DmqfzofTccQ" name="crearVistaFalloBajaHangar" isAbstract="true">
           <ownedParameter xmi:id="_ZbACsPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_aznbcPHmEe6DmqfzofTccQ" name="crearVistaConsultarHangarPorId">
+        <ownedOperation xmi:id="_aznbcPHmEe6DmqfzofTccQ" name="crearVistaConsultarHangarPorId" isAbstract="true">
           <ownedParameter xmi:id="_dM-fgPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_eVltYPHmEe6DmqfzofTccQ" name="crearVistaResultadoConsultarHangarPorId">
+        <ownedOperation xmi:id="_eVltYPHmEe6DmqfzofTccQ" name="crearVistaResultadoConsultarHangarPorId" isAbstract="true">
           <ownedParameter xmi:id="_geyOgPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_lB3_MPHmEe6DmqfzofTccQ" name="crearVistaResultadoConsultarTodosHangares">
+        <ownedOperation xmi:id="_lB3_MPHmEe6DmqfzofTccQ" name="crearVistaResultadoConsultarTodosHangares" isAbstract="true">
           <ownedParameter xmi:id="_nX8esPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_o6AuYPHmEe6DmqfzofTccQ" name="crearVistaModificarHangar">
+        <ownedOperation xmi:id="_o6AuYPHmEe6DmqfzofTccQ" name="crearVistaModificarHangar" isAbstract="true">
           <ownedParameter xmi:id="_rdrlAPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_tAusIPHmEe6DmqfzofTccQ" name="crearVistaExitoModificarHangar">
+        <ownedOperation xmi:id="_tAusIPHmEe6DmqfzofTccQ" name="crearVistaExitoModificarHangar" isAbstract="true">
           <ownedParameter xmi:id="_uzRn0PHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_wS1WEPHmEe6DmqfzofTccQ" name="crearVistaFalloModificarHangar">
+        <ownedOperation xmi:id="_wS1WEPHmEe6DmqfzofTccQ" name="crearVistaFalloModificarHangar" isAbstract="true">
           <ownedParameter xmi:id="_1_0uEPHmEe6DmqfzofTccQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
