@@ -4540,6 +4540,11 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_ZuL3sPa4Ee66-943QLiW6g" client="_BxTAwPa4Ee66-943QLiW6g">
         <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Interface"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VG8tUPyLEe6HUo98nCNJKQ" name="VistaAvion">
+        <generalization xmi:id="_fas1EPyLEe6HUo98nCNJKQ">
+          <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+        </generalization>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_B5XFUNuVEe671onPXtu2fA" name="aerolinea">
       <eAnnotations xmi:id="_B5XFUduVEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -6340,7 +6345,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_bY1LkN_CEe62YMrw1elUTw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_bY1Lkd_CEe62YMrw1elUTw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_bY1yoN_CEe62YMrw1elUTw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bYyIQd_CEe62YMrw1elUTw" x="11748" y="-5544"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bYyIQd_CEe62YMrw1elUTw" x="11748" y="-13596"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_bzjYsN_CEe62YMrw1elUTw" element="_28X2gNuYEe671onPXtu2fA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_bzj_wN_CEe62YMrw1elUTw" type="ImageCompartment">
@@ -7072,8 +7077,65 @@
         <ownedOperation xmi:id="_kdrm4O7OEe6B6NtYZRN9xw" name="crearVistaModelo" isAbstract="true">
           <ownedParameter xmi:id="_s7qf0O7OEe6B6NtYZRN9xw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_nAzq8O7OEe6B6NtYZRN9xw" name="CrearVistaPrincipal" isAbstract="true">
+        <ownedOperation xmi:id="_nAzq8O7OEe6B6NtYZRN9xw" name="crearVistaPrincipal" isAbstract="true">
           <ownedParameter xmi:id="_zXViwO7OEe6B6NtYZRN9xw" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_EZkKAPyLEe6HUo98nCNJKQ" name="crearVistaAltaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_7Rv_APyMEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jueXYPyLEe6HUo98nCNJKQ" name="crearVistaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_9vDu8PyMEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kvtK4PyLEe6HUo98nCNJKQ" name="crearVistaBajaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_9vDu8fyMEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sWFtcPyLEe6HUo98nCNJKQ" name="crearVistaConsultarAvionPorId" isAbstract="true">
+          <ownedParameter xmi:id="_9vDu8vyMEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uwqScPyLEe6HUo98nCNJKQ" name="crearVistaExitoAltaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_9vDu8_yMEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_wCEP8PyLEe6HUo98nCNJKQ" name="crearVistaExitoBajaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_BJWEgPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xbLX8PyLEe6HUo98nCNJKQ" name="crearVistaExitoModificarAvion" isAbstract="true">
+          <ownedParameter xmi:id="_Co-EMPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y1XeAPyLEe6HUo98nCNJKQ" name="crearVistaFalloAltaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_Co-EMfyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OXPeoPyMEe6HUo98nCNJKQ" name="crearVistaFalloBajaAvion" isAbstract="true">
+          <ownedParameter xmi:id="_Co-EMvyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_YXI2QPyMEe6HUo98nCNJKQ" name="crearVistaFalloModificarAvion" isAbstract="true">
+          <ownedParameter xmi:id="_Co-ENPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ahE-QPyMEe6HUo98nCNJKQ" name="crearVistaModficarAvion" isAbstract="true">
+          <ownedParameter xmi:id="_Co-EM_yNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_cAmQQPyMEe6HUo98nCNJKQ" name="crearVistaMostrarAvionesPorAerolinea" isAbstract="true">
+          <ownedParameter xmi:id="_CpBukPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dycBUPyMEe6HUo98nCNJKQ" name="crearVistaMostrarAvionesPorHangar" isAbstract="true">
+          <ownedParameter xmi:id="_CpCVoPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fxw0wPyMEe6HUo98nCNJKQ" name="crearVistaMostrarAvionesPorModelo" isAbstract="true">
+          <ownedParameter xmi:id="_CpCVofyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jr8LUPyMEe6HUo98nCNJKQ" name="crearVistaResultadoConsultarAvionPorId" isAbstract="true">
+          <ownedParameter xmi:id="_CpDjwPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_myyngPyMEe6HUo98nCNJKQ" name="crearVistaResultadoConsultarTodosAviones" isAbstract="true">
+          <ownedParameter xmi:id="_CpDjwfyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_qRT80PyMEe6HUo98nCNJKQ" name="crearVistaResultadoMostrarAvionesPorAerolinea" isAbstract="true">
+          <ownedParameter xmi:id="_CpDjwvyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tYcF0PyMEe6HUo98nCNJKQ" name="crearVistaResultadoMostrarAvionesPorHangar" isAbstract="true">
+          <ownedParameter xmi:id="_CpDjw_yNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vaYIYPyMEe6HUo98nCNJKQ" name="crearVistaResultadoMostrarAvionesPorModelo" isAbstract="true">
+          <ownedParameter xmi:id="_CpDjxPyNEe6HUo98nCNJKQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_GeXowOBPEe6W7Nb7jNcwPA" supplier="__18fQNuYEe671onPXtu2fA" client="_HbH9YNuYEe671onPXtu2fA"/>
@@ -10830,7 +10892,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_luQhQfcOEe6x_Y5FXZ8Knw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_luQhQvcOEe6x_Y5FXZ8Knw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_luQhQ_cOEe6x_Y5FXZ8Knw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luPTIfcOEe6x_Y5FXZ8Knw" x="16632" y="19404"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luPTIfcOEe6x_Y5FXZ8Knw" x="16368" y="19404"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_7-FyAPQEEe6TAL041sQemw" element="_7-Ej4PQEEe6TAL041sQemw" source="_2IuhIPQEEe6TAL041sQemw" target="_79_EUPQEEe6TAL041sQemw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -11162,6 +11224,7 @@
           <ownedParameter xmi:id="_mCVlAPQHEe6TAL041sQemw" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
+          <ownedParameter xmi:id="_lun_UPyNEe6HUo98nCNJKQ" name="avion" type="_LeGSEOOEEe65I9BvgcChUw"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_apFfsPQFEe6TAL041sQemw" supplier="_ao_ZEPQFEe6TAL041sQemw" client="_2IsE4PQEEe6TAL041sQemw"/>
@@ -11174,9 +11237,48 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_FV3dsPZKEe6QeOtyQ2kaPQ" supplier="_VEEAQOxXEe6oYL5Vnhl4IA" client="_2IsE4PQEEe6TAL041sQemw"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_gryF4PcOEe6x_Y5FXZ8Knw" name="TAPrivado">
         <generalization xmi:id="_pKxrcPcOEe6x_Y5FXZ8Knw" general="_LeGSEOOEEe65I9BvgcChUw"/>
+        <ownedAttribute xmi:id="_5Yd3QPyOEe6HUo98nCNJKQ" name="nombreDuenyo" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-72nUPyOEe6HUo98nCNJKQ" name="idCarnet" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_NLf84PyPEe6HUo98nCNJKQ" name="getIdCarnet">
+          <ownedParameter xmi:id="_c0Bw8PyPEe6HUo98nCNJKQ" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_O41BYPyPEe6HUo98nCNJKQ" name="getNombreDuenyo">
+          <ownedParameter xmi:id="_eEUUIPyPEe6HUo98nCNJKQ" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RF588PyPEe6HUo98nCNJKQ" name="setNombreDuenyo">
+          <ownedParameter xmi:id="_q8cdIPyPEe6HUo98nCNJKQ" name="nombre">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_R7ikcPyPEe6HUo98nCNJKQ" name="setIdCarnet">
+          <ownedParameter xmi:id="_tucDoPyPEe6HUo98nCNJKQ" name="idCarnet">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_luNd8PcOEe6x_Y5FXZ8Knw" name="TAComercial">
         <generalization xmi:id="_oXWqcPcOEe6x_Y5FXZ8Knw" general="_LeGSEOOEEe65I9BvgcChUw"/>
+        <ownedAttribute xmi:id="_0z9KQPyOEe6HUo98nCNJKQ" name="trabajadores" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_I6v5YPyPEe6HUo98nCNJKQ" name="getTrabajadores">
+          <ownedParameter xmi:id="_afBocPyPEe6HUo98nCNJKQ" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MEGP8PyPEe6HUo98nCNJKQ" name="setTrabajadores">
+          <ownedParameter xmi:id="_geCkkPyPEe6HUo98nCNJKQ" name="numTrabajadores">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aaLIuNuVEe671onPXtu2fA" name="aerolinea">
@@ -13890,11 +13992,17 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_t7sTQOeYEe6SL5m_VH-6Kw" name="DAOAvionImp" clientDependency="_zqZigOeYEe6SL5m_VH-6Kw _rvGqcOeZEe6SL5m_VH-6Kw _ubkQsOeZEe6SL5m_VH-6Kw _xZcXEOeZEe6SL5m_VH-6Kw _0-kqsOeZEe6SL5m_VH-6Kw _4A8PgOeZEe6SL5m_VH-6Kw _cRHnkOebEe6SL5m_VH-6Kw">
-        <ownedOperation xmi:id="_4gl-4PcOEe6x_Y5FXZ8Knw" name="toJSON" visibility="private">
+        <ownedOperation xmi:id="_4gl-4PcOEe6x_Y5FXZ8Knw" name="write" visibility="private">
           <ownedParameter xmi:id="_-X6XkPcOEe6x_Y5FXZ8Knw" name="Parameter1" direction="return">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
           <ownedParameter xmi:id="_DYIJIPcPEe6x_Y5FXZ8Knw" name="tAvion" type="_LeGSEOOEEe65I9BvgcChUw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LqocgPyOEe6HUo98nCNJKQ" name="read" visibility="private">
+          <ownedParameter xmi:id="_MxDSAPyOEe6HUo98nCNJKQ" name="Parameter1" type="_LeGSEOOEEe65I9BvgcChUw" direction="return"/>
+          <ownedParameter xmi:id="_RlRO8PyOEe6HUo98nCNJKQ" name="data">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_zqZigOeYEe6SL5m_VH-6Kw" supplier="_LeGSEOOEEe65I9BvgcChUw" client="_t7sTQOeYEe6SL5m_VH-6Kw"/>
@@ -13972,6 +14080,16 @@
             <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Interface"/>
           </ownedParameter>
           <ownedParameter xmi:id="_B9xZUPQBEe6TAL041sQemw" name="idHangar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HPI-EPyNEe6HUo98nCNJKQ" name="consultarAvionesActivosPorAerolinea">
+          <ownedParameter xmi:id="_NzeNwPyNEe6HUo98nCNJKQ" name="idAerolinea">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KrUxEPyNEe6HUo98nCNJKQ" name="consultarAvionesActivosPorHangar">
+          <ownedParameter xmi:id="_SKHd4PyNEe6HUo98nCNJKQ" name="idHangar">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
