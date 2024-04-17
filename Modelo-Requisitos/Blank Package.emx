@@ -8784,7 +8784,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_9AjpFPHqEe6gvMTxSKv8Gw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_9AjpFfHqEe6gvMTxSKv8Gw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9AjpFvHqEe6gvMTxSKv8Gw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9AcUUfHqEe6gvMTxSKv8Gw" x="10668" y="16510"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9AcUUfHqEe6gvMTxSKv8Gw" x="10560" y="17292"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_GxfXoPHrEe6gvMTxSKv8Gw" element="_gitk4PHpEe6gvMTxSKv8Gw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_Gxf-sPHrEe6gvMTxSKv8Gw" type="ImageCompartment">
@@ -9248,6 +9248,21 @@
         </ownedOperation>
         <ownedOperation xmi:id="_1LbagPa5Ee6kgKRPt7VjqQ" name="crearVistaExitoModificarAerolinea" isAbstract="true">
           <ownedParameter xmi:id="_LDvKkPa6Ee6kgKRPt7VjqQ" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3Q1m8PyPEe6Q9YkefppCXg" name="crearVistaAerolinea" isAbstract="true">
+          <ownedParameter xmi:id="_6R0EoPyPEe6Q9YkefppCXg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9ZYSgPyPEe6Q9YkefppCXg" name="crearVistaAltaAerolinea" isAbstract="true">
+          <ownedParameter xmi:id="__KXvAPyPEe6Q9YkefppCXg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_APMCAPyQEe6Q9YkefppCXg" name="crearVistaBajaAerolinea" isAbstract="true">
+          <ownedParameter xmi:id="_CjSLkPyQEe6Q9YkefppCXg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ECfUgPyQEe6Q9YkefppCXg" name="crearVistaModificarAerolinea" isAbstract="true">
+          <ownedParameter xmi:id="_FybBEPyQEe6Q9YkefppCXg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Gz4eEPyQEe6Q9YkefppCXg" name="crearVistaConsultarAerolineaPorId" isAbstract="true">
+          <ownedParameter xmi:id="_IaRNEPyQEe6Q9YkefppCXg" name="Parameter1" type="__18fQNuYEe671onPXtu2fA" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_GeXowOBPEe6W7Nb7jNcwPA" supplier="__18fQNuYEe671onPXtu2fA" client="_HbH9YNuYEe671onPXtu2fA"/>
