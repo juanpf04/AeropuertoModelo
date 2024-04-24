@@ -24959,7 +24959,11 @@
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_55j3sPzGEe6hKNVXpvCZDQ" name="setId"/>
+        <ownedOperation xmi:id="_55j3sPzGEe6hKNVXpvCZDQ" name="setId">
+          <ownedParameter xmi:id="_G9MK0AIREe-sra_UmVWFSg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
         <ownedOperation xmi:id="_6wW80PzGEe6hKNVXpvCZDQ" name="setIdEmpleado">
           <ownedParameter xmi:id="_Pr3tcPzHEe6hKNVXpvCZDQ" name="idEmpleado">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
