@@ -31988,17 +31988,39 @@
             </contents>
           </eAnnotations>
         </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_nllBAAILEe-sra_UmVWFSg" name="leerFichero">
+          <eAnnotations xmi:id="_nllBAQILEe-sra_UmVWFSg" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_nllBAgILEe-sra_UmVWFSg" type="Sequence" element="_nllBAAILEe-sra_UmVWFSg" name="DSleerFicheroI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_nllBAwILEe-sra_UmVWFSg" element="_nllBAAILEe-sra_UmVWFSg" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_nllBBAILEe-sra_UmVWFSg" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_nllBBQILEe-sra_UmVWFSg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nllBBgILEe-sra_UmVWFSg" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_v3Lq0AILEe-sra_UmVWFSg" name="escribirFichero">
+          <eAnnotations xmi:id="_v3Lq0QILEe-sra_UmVWFSg" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_v3Lq0gILEe-sra_UmVWFSg" type="Sequence" element="_v3Lq0AILEe-sra_UmVWFSg" name="DSescribirFicheroI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_v3Lq0wILEe-sra_UmVWFSg" element="_v3Lq0AILEe-sra_UmVWFSg" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_v3Lq1AILEe-sra_UmVWFSg" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_v3Lq1QILEe-sra_UmVWFSg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3Lq1gILEe-sra_UmVWFSg" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_2ZqboPzBEe6hKNVXpvCZDQ" name="DAOPersonalImp" clientDependency="_5mm4wPzBEe6hKNVXpvCZDQ _DYZi8PzCEe6hKNVXpvCZDQ _D-nOYPzCEe6hKNVXpvCZDQ _Egt14PzCEe6hKNVXpvCZDQ _FGp0gPzCEe6hKNVXpvCZDQ _FqruoPzCEe6hKNVXpvCZDQ _IDEiXPzCEe6hKNVXpvCZDQ">
-        <ownedOperation xmi:id="_IemV0PzEEe6hKNVXpvCZDQ" name="read" visibility="private">
+        <ownedOperation xmi:id="_IemV0PzEEe6hKNVXpvCZDQ" name="leerFichero" visibility="private">
           <ownedParameter xmi:id="_L9UfcPzEEe6hKNVXpvCZDQ" name="Parameter1" type="_IDEiUPzCEe6hKNVXpvCZDQ" direction="return"/>
-          <ownedParameter xmi:id="_vbwuAPzEEe6hKNVXpvCZDQ" name="data">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          <ownedParameter xmi:id="_vbwuAPzEEe6hKNVXpvCZDQ" name="file">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_VWTBAPzEEe6hKNVXpvCZDQ" name="write" visibility="private">
+        <ownedOperation xmi:id="_VWTBAPzEEe6hKNVXpvCZDQ" name="escribirFichero" visibility="private">
           <ownedParameter xmi:id="_qKr18PzEEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.json.JSONObject%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <ownedParameter xmi:id="_sCuVoPzEEe6hKNVXpvCZDQ" name="tPersonal" type="_IDEiUPzCEe6hKNVXpvCZDQ"/>
         </ownedOperation>
