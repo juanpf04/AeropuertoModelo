@@ -32079,11 +32079,15 @@
           <ownedParameter xmi:id="_-r4pIPzEEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
+          <ownedParameter xmi:id="_tMTX8AIWEe-sra_UmVWFSg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_0hQBIPzEEe6hKNVXpvCZDQ" name="ModificarPersonal">
           <ownedParameter xmi:id="_ExhKoPzFEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
+          <ownedParameter xmi:id="_vS87YAIWEe-sra_UmVWFSg" name="tPersonal" type="_IDEiUPzCEe6hKNVXpvCZDQ"/>
         </ownedOperation>
         <ownedOperation xmi:id="_6ToPcPzEEe6hKNVXpvCZDQ" name="ConsultarPersonalPorId">
           <ownedParameter xmi:id="_GSsCcPzFEe6hKNVXpvCZDQ" name="Parameter1" type="_IDEiUPzCEe6hKNVXpvCZDQ" direction="return"/>
