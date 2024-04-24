@@ -24841,7 +24841,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_LysDJvzMEe6hKNVXpvCZDQ" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LysDJPzMEe6hKNVXpvCZDQ" y="-149"/>
             </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LysDIvzMEe6hKNVXpvCZDQ" points="[-28, -25, 390, 335]$[-416, -359, 2, 1]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LysDIvzMEe6hKNVXpvCZDQ" points="[931, -633, -10453, 7064]$[931, -2199, -10453, 5498]$[5129, -2199, -6255, 5498]$[5129, -6435, -6255, 1262]$[9507, -6435, -1877, 1262]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Qw1_MPzMEe6hKNVXpvCZDQ" element="_QwyU0PzMEe6hKNVXpvCZDQ" source="_QdvH4fzKEe6hKNVXpvCZDQ" target="_QwjEQPzMEe6hKNVXpvCZDQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_Qw1_MvzMEe6hKNVXpvCZDQ" type="NameLabel">
@@ -24928,6 +24928,9 @@
         <ownedOperation xmi:id="_mVjskPzGEe6hKNVXpvCZDQ" name="TPersonal">
           <ownedParameter xmi:id="_op9YIPzGEe6hKNVXpvCZDQ" name="id">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qVH7AAIMEe-sra_UmVWFSg" name="activo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <ownedParameter xmi:id="_pdJIkPzGEe6hKNVXpvCZDQ" name="idEmpleado">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -25061,6 +25064,23 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_vgDu0AIMEe-sra_UmVWFSg" name="TPSeguridad">
+          <ownedParameter xmi:id="_TVCjMAIPEe-sra_UmVWFSg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_YePRoAIPEe-sra_UmVWFSg" name="idEmpleado">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_YkRBIAIPEe-sra_UmVWFSg" name="areaAsignada">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_YvjrIAIPEe-sra_UmVWFSg" name="activo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ZDFrIAIPEe-sra_UmVWFSg" name="numPlaca">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_lmp-MPzREe6hKNVXpvCZDQ" name="TPLimpieza">
         <generalization xmi:id="_2WNEsPzREe6hKNVXpvCZDQ" general="_IDEiUPzCEe6hKNVXpvCZDQ"/>
@@ -25076,6 +25096,23 @@
         </ownedOperation>
         <ownedOperation xmi:id="_gatL0PzTEe6hKNVXpvCZDQ" name="setRol">
           <ownedParameter xmi:id="_5wHU4PzTEe6hKNVXpvCZDQ" name="rol">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_FfAngAIPEe-sra_UmVWFSg" name="TPLimpieza">
+          <ownedParameter xmi:id="_qL9QkAIPEe-sra_UmVWFSg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qQFioAIPEe-sra_UmVWFSg" name="idEmpleado">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qT_LMAIPEe-sra_UmVWFSg" name="areaAsignada">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qYVfsAIPEe-sra_UmVWFSg" name="activo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qcm7sAIPEe-sra_UmVWFSg" name="rol">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=Modelo-Requisitos%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
