@@ -33157,7 +33157,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_l8mvIPzIEe6hKNVXpvCZDQ" name="DAOPersonalHangarImp" clientDependency="_oVvJvPzIEe6hKNVXpvCZDQ _zRo2kPzIEe6hKNVXpvCZDQ _zz6dMPzIEe6hKNVXpvCZDQ _0VUhIPzIEe6hKNVXpvCZDQ _00B2YPzIEe6hKNVXpvCZDQ _1N3SsPzIEe6hKNVXpvCZDQ _2O8VMvzIEe6hKNVXpvCZDQ"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_oVvJsPzIEe6hKNVXpvCZDQ" name="DAOPersonalHangar">
-        <ownedOperation xmi:id="_65icEPzIEe6hKNVXpvCZDQ" name="Vincular">
+        <ownedOperation xmi:id="_65icEPzIEe6hKNVXpvCZDQ" name="vincular">
           <ownedParameter xmi:id="_RcH4MPzJEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
@@ -33168,12 +33168,12 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_AEW7IPzJEe6hKNVXpvCZDQ" name="Desvincular">
+        <ownedOperation xmi:id="_AEW7IPzJEe6hKNVXpvCZDQ" name="desvincular">
           <ownedParameter xmi:id="_SochYPzJEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_BfRZ8PzJEe6hKNVXpvCZDQ" name="ComprobarVinculacion">
+        <ownedOperation xmi:id="_BfRZ8PzJEe6hKNVXpvCZDQ" name="comprobarVinculacion">
           <ownedParameter xmi:id="_SoioAPzJEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
