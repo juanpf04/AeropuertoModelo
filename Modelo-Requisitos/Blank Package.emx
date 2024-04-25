@@ -33172,6 +33172,12 @@
           <ownedParameter xmi:id="_SochYPzJEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
+          <ownedParameter xmi:id="_blNGEAMhEe-oRp0CJhIfMg" name="idPersonal">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_b8x4kAMhEe-oRp0CJhIfMg" name="idHangar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_BfRZ8PzJEe6hKNVXpvCZDQ" name="comprobarVinculacion">
           <ownedParameter xmi:id="_SoioAPzJEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
