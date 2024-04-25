@@ -25000,6 +25000,7 @@
           <ownedParameter xmi:id="_A8LhsPzOEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
+          <ownedParameter xmi:id="_XzUogAMkEe-oRp0CJhIfMg" name="tPersonalHangar" type="_2OykMPzIEe6hKNVXpvCZDQ"/>
         </ownedOperation>
         <ownedOperation xmi:id="_8SpnQPzMEe6hKNVXpvCZDQ" name="desvincularPersonal">
           <ownedParameter xmi:id="_A8LhsfzOEe6hKNVXpvCZDQ" name="Parameter1" direction="return">
