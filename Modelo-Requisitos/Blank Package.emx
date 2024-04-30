@@ -12008,7 +12008,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_VW6MAPBCEe6SE-lWuch20g" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_VW6MAfBCEe6SE-lWuch20g" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_VW6MAvBCEe6SE-lWuch20g" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VW5k8PBCEe6SE-lWuch20g" x="176"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VW5k8PBCEe6SE-lWuch20g" x="176" y="2241" width="5121" height="9546"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_TbWNwOOKEe65I9BvgcChUw" element="_TbTxgOOKEe65I9BvgcChUw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_TbWNwuOKEe65I9BvgcChUw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
