@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_uqQootuTEe671onPXtu2fA" name="Modelo de diseño">
   <eAnnotations xmi:id="_uqQoo9uTEe671onPXtu2fA" source="uml2.diagrams"/>
@@ -14330,10 +14330,21 @@
           <message xmi:id="_n8ZWUAXAEe-evPRCrr5okQ" name="setId(lista.length() + 1)" receiveEvent="_n8Z9YAXAEe-evPRCrr5okQ" sendEvent="_n8ZWUQXAEe-evPRCrr5okQ" connector="_n8bLgQXAEe-evPRCrr5okQ"/>
           <message xmi:id="_n8akcQXAEe-evPRCrr5okQ" name="setId" messageSort="reply" receiveEvent="_n8bLgAXAEe-evPRCrr5okQ" sendEvent="_n8akcAXAEe-evPRCrr5okQ" connector="_n8bLgQXAEe-evPRCrr5okQ"/>
           <message xmi:id="_-hUUwAXAEe-evPRCrr5okQ" name="FileWriter" messageSort="createMessage" receiveEvent="_-hX_IAXAEe-evPRCrr5okQ" sendEvent="_-hVi4AXAEe-evPRCrr5okQ" connector="_-hZNQAXAEe-evPRCrr5okQ"/>
-          <message xmi:id="_2oDnkAXCEe-evPRCrr5okQ" name="write(write(tAvion).toString())" receiveEvent="_2oGD0AXCEe-evPRCrr5okQ" sendEvent="_2oE1sAXCEe-evPRCrr5okQ" connector="_-hZNQAXAEe-evPRCrr5okQ"/>
+          <message xmi:id="_2oDnkAXCEe-evPRCrr5okQ" name="write(this.write(tAvion).toString())" receiveEvent="_2oGD0AXCEe-evPRCrr5okQ" sendEvent="_2oE1sAXCEe-evPRCrr5okQ" connector="_-hZNQAXAEe-evPRCrr5okQ"/>
           <message xmi:id="_2oJuMAXCEe-evPRCrr5okQ" name="write" messageSort="reply" receiveEvent="_2oK8UAXCEe-evPRCrr5okQ" sendEvent="_2oIgEAXCEe-evPRCrr5okQ" connector="_-hZNQAXAEe-evPRCrr5okQ"/>
           <message xmi:id="_5El7cAXCEe-evPRCrr5okQ" name="close" receiveEvent="_5EoXsAXCEe-evPRCrr5okQ" sendEvent="_5EnJkAXCEe-evPRCrr5okQ" connector="_-hZNQAXAEe-evPRCrr5okQ"/>
           <message xmi:id="_5EspIAXCEe-evPRCrr5okQ" name="close" messageSort="reply" receiveEvent="_5EtQMAXCEe-evPRCrr5okQ" sendEvent="_5ErbAAXCEe-evPRCrr5okQ" connector="_-hZNQAXAEe-evPRCrr5okQ"/>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_n3uTAAbDEe-tXqTmIgiVIQ" name="BajaAvion">
+          <eAnnotations xmi:id="_n4KX4AbDEe-tXqTmIgiVIQ" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_n4KX4QbDEe-tXqTmIgiVIQ" type="Sequence" element="_n3uTAAbDEe-tXqTmIgiVIQ" name="DSBajaAvionI" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_n4KX4gbDEe-tXqTmIgiVIQ" element="_n3uTAAbDEe-tXqTmIgiVIQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_n4KX4wbDEe-tXqTmIgiVIQ" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_n4KX5AbDEe-tXqTmIgiVIQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n4KX5QbDEe-tXqTmIgiVIQ" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
         </ownedBehavior>
         <ownedAttribute xmi:id="_1c5_4AW-Ee-evPRCrr5okQ" name="Property"/>
         <ownedAttribute xmi:id="_8DEbkAW-Ee-evPRCrr5okQ" name=""/>
