@@ -750,7 +750,6 @@
   <packageImport xmi:id="_ADiBlduUEe671onPXtu2fA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Node" xmi:id="_kBtmwAvREe-S2okQAmNiOA" name="Windows 10"/>
   <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_qWSjMAvREe-S2okQAmNiOA" name="Java JDK-1.8" clientDependency="_PlN38AvSEe-S2okQAmNiOA">
     <ownedAttribute xmi:id="_MwClEAyXEe-Jedek15robA" name="Windows 10" visibility="private" type="_zcwUMAycEe-Jedek15robA" association="_Mv-ToAyXEe-Jedek15robA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MwClEgyXEe-Jedek15robA" value="1"/>
@@ -762,10 +761,7 @@
     </ownedAttribute>
     <deployment xmi:id="_PlN38AvSEe-S2okQAmNiOA" supplier="_NE4CIAvSEe-S2okQAmNiOA" client="_qWSjMAvREe-S2okQAmNiOA" deployedArtifact="_NE4CIAvSEe-S2okQAmNiOA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_NE4CIAvSEe-S2okQAmNiOA" name="AirGest.jar" clientDependency="_iECHMAvTEe-S2okQAmNiOA _iqtFoAvTEe-S2okQAmNiOA _dEvioAyXEe-Jedek15robA _sK5pcAyXEe-Jedek15robA _w-q6cAyXEe-Jedek15robA _4tjRsAyXEe-Jedek15robA _ZHO5UAyZEe-Jedek15robA _eRszEAyZEe-Jedek15robA _ekbh0AyZEe-Jedek15robA _wkBecAyaEe-Jedek15robA _w2K-YAyaEe-Jedek15robA _xHoh0AyaEe-Jedek15robA">
-    <manifestation xmi:id="_dEvioAyXEe-Jedek15robA" supplier="_dEXvMAyXEe-Jedek15robA" client="_NE4CIAvSEe-S2okQAmNiOA" utilizedElement="_dEXvMAyXEe-Jedek15robA"/>
-    <manifestation xmi:id="_sK5pcAyXEe-Jedek15robA" supplier="_sKzi0AyXEe-Jedek15robA" client="_NE4CIAvSEe-S2okQAmNiOA" utilizedElement="_sKzi0AyXEe-Jedek15robA"/>
-    <manifestation xmi:id="_w-q6cAyXEe-Jedek15robA" supplier="_w-la4AyXEe-Jedek15robA" client="_NE4CIAvSEe-S2okQAmNiOA" utilizedElement="_w-la4AyXEe-Jedek15robA"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_NE4CIAvSEe-S2okQAmNiOA" name="AirGest.jar" clientDependency="_iECHMAvTEe-S2okQAmNiOA _iqtFoAvTEe-S2okQAmNiOA _4tjRsAyXEe-Jedek15robA _ZHO5UAyZEe-Jedek15robA _eRszEAyZEe-Jedek15robA _ekbh0AyZEe-Jedek15robA _wkBecAyaEe-Jedek15robA _w2K-YAyaEe-Jedek15robA _xHoh0AyaEe-Jedek15robA">
     <manifestation xmi:id="_ZHO5UAyZEe-Jedek15robA" client="_NE4CIAvSEe-S2okQAmNiOA">
       <supplier xmi:type="uml:Package" href="mmi:///#jpack%5Ename=negocio%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Modelo-Requisitos%5D%5D$uml.Package"/>
       <utilizedElement xmi:type="uml:Package" href="mmi:///#jpack%5Ename=negocio%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Modelo-Requisitos%5D%5D$uml.Package"/>
@@ -784,14 +780,8 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_iECHMAvTEe-S2okQAmNiOA" supplier="_a0TKEAvTEe-S2okQAmNiOA" client="_NE4CIAvSEe-S2okQAmNiOA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_iqtFoAvTEe-S2okQAmNiOA" supplier="_elWZ0AvTEe-S2okQAmNiOA" client="_NE4CIAvSEe-S2okQAmNiOA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_Mv-ToAyXEe-Jedek15robA" memberEnd="_MwAI0AyXEe-Jedek15robA _MwClEAyXEe-Jedek15robA"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_dEXvMAyXEe-Jedek15robA" name="Presentacion" clientDependency="_CnrjEAyZEe-Jedek15robA"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_sKzi0AyXEe-Jedek15robA" name="Negocio"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_w-la4AyXEe-Jedek15robA" name="Integracion" clientDependency="_5AusYAyXEe-Jedek15robA _-0UmMAyYEe-Jedek15robA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_4tjRsAyXEe-Jedek15robA" supplier="_a0TKEAvTEe-S2okQAmNiOA" client="_NE4CIAvSEe-S2okQAmNiOA"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_5AusYAyXEe-Jedek15robA" supplier="_a0TKEAvTEe-S2okQAmNiOA" client="_w-la4AyXEe-Jedek15robA"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_5RblYAyYEe-Jedek15robA" name="/recursos"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_-0UmMAyYEe-Jedek15robA" supplier="_5RblYAyYEe-Jedek15robA" client="_w-la4AyXEe-Jedek15robA"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_CnrjEAyZEe-Jedek15robA" supplier="_5RblYAyYEe-Jedek15robA" client="_dEXvMAyXEe-Jedek15robA"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_yigZ0AyZEe-Jedek15robA" name="iconos">
     <generalization xmi:id="_FfnHkAybEe-Jedek15robA" general="_DuYagAybEe-Jedek15robA"/>
   </packagedElement>
